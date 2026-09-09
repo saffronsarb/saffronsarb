@@ -206,7 +206,7 @@ Alongside flagship projects, I maintain codebases from university coursework and
 
 [![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saffronsarb)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saffron.shoolini@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ssaffron533%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssaffron533@gmail.com)
 
 <br />
 
