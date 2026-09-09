@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" fill="none">
+  <title>Saffron Singh — AI/ML Developer, AI Agents, Software Engineering &amp; Research</title>
+  <desc>Atmospheric AI Research &amp; Intelligent Systems Visual Banner for Saffron Singh</desc>
+
+  <defs>
+    <!-- Background Canvas Gradients -->
+    <linearGradient id="bg-alt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#090e1c" />
+      <stop offset="100%" stop-color="#060914" />
+    </linearGradient>
+
+    <!-- Outer Subtle Border -->
+    <linearGradient id="border-alt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.6" />
+      <stop offset="35%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Ambient Breathing Center Aura (Large, Deep & Cinematic) -->
+    <radialGradient id="aura-hero" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.22" />
+      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="85%" stop-color="#38bdf8" stop-opacity="0.015" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Left Identity Aura -->
+    <radialGradient id="left-wash" cx="12%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Central AGENT Core Gradient -->
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="75%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </radialGradient>
+
+    <!-- Subtle Technical Background Dot Grid -->
+    <pattern id="grid-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="28" cy="28" r="0.7" fill="#334155" fill-opacity="0.22" />
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.35" stroke-opacity="0.12" />
+    </pattern>
+
+    <!-- Atmospheric Horizontal Scan Beam -->
+    <linearGradient id="soft-scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.045" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', 'Fira Code', monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title-name { font-weight: 900; font-size: 42px; letter-spacing: 4px; fill: #f8fafc; }
+    .title-sub { font-weight: 600; font-size: 13.5px; fill: #38bdf8; letter-spacing: 0.2px; }
+    .title-desc { font-weight: 400; font-size: 11.5px; fill: #94a3b8; }
+    .lbl-node { font-size: 8px; font-weight: 600; fill: #94a3b8; text-anchor: middle; letter-spacing: 0.6px; }
+    .lbl-agent { font-size: 9.5px; font-weight: 800; fill: #e0e7ff; text-anchor: middle; letter-spacing: 1.5px; }
+    .readout-title { font-size: 8.5px; font-weight: 700; fill: #818cf8; letter-spacing: 1.4px; }
+    .readout-item { font-size: 9px; font-weight: 500; fill: #cbd5e1; letter-spacing: 0.6px; }
+    .prompt-label { font-size: 8px; font-weight: 500; fill: #64748b; letter-spacing: 0.6px; }
+    .tag-meta { font-size: 9px; font-weight: 500; fill: #64748b; letter-spacing: 1px; }
+  </style>
+
+  <!-- Canvas Background & Faint Overlays -->
+  <rect x="1" y="1" width="878" height="248" rx="10" fill="url(#bg-alt)" stroke="url(#border-alt)" stroke-width="1" />
+  <rect x="2" y="2" width="876" height="246" rx="9" fill="url(#grid-dots)" />
+  <rect x="2" y="2" width="876" height="246" rx="9" fill="url(#left-wash)" />
+
+  <!-- Faint Atmospheric Structural Trace Lines -->
+  <g stroke="#1e293b" stroke-width="0.5" opacity="0.3">
+    <path d="M 48 24 L 280 24 L 330 74" fill="none" />
+    <path d="M 680 226 L 836 226" fill="none" />
+    <circle cx="330" cy="74" r="1.5" fill="#334155" />
+    <circle cx="280" cy="24" r="1.5" fill="#334155" />
+    <circle cx="680" cy="226" r="1.5" fill="#334155" />
+  </g>
+
+  <!-- Corner Subtle Accents -->
+  <path d="M 12 22 L 12 12 L 22 12" fill="none" stroke="#6366f1" stroke-width="1.2" opacity="0.45" />
+  <path d="M 868 22 L 868 12 L 858 12" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.45" />
+  <path d="M 12 228 L 12 238 L 22 238" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.45" />
+  <path d="M 868 228 L 868 238 L 858 238" fill="none" stroke="#6366f1" stroke-width="1.2" opacity="0.45" />
+
+  <!-- ================================================================= -->
+  <!-- ZONE 1: LEFT — IDENTITY (Stable, Clean, Supreme Readability)     -->
+  <!-- ================================================================= -->
+  <g transform="translate(48, 44)">
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="5" r="2.5" fill="#6366f1" />
+      <text x="14" y="8" class="mono tag-meta">SYS.01 // INTELLIGENT SYSTEMS</text>
+    </g>
+    <text x="0" y="60" class="sans title-name">SAFFRON</text>
+    <text x="0" y="90" class="sans title-sub">
+      AI/ML Developer <tspan fill="#6366f1">•</tspan> AI Agents <tspan fill="#6366f1">•</tspan> Software Engineering
+    </text>
+    <text x="0" y="114" class="sans title-desc">
+      Researching intelligent systems &amp; building practical AI
+    </text>
+    <g transform="translate(0, 138)">
+      <text x="0" y="8" class="mono tag-meta">
+        <tspan fill="#6366f1">❯</tspan> <tspan fill="#94a3b8">DISTRIBUTED INTELLIGENCE</tspan> <tspan fill="#334155">│</tspan> <tspan fill="#64748b">2026</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- ZONE 2: CENTER — AI SYSTEM (The Visual Hero: Large & Organic)    -->
+  <!-- ================================================================= -->
+  <!-- Center Origin: (490, 125) - Generously Expanded Network -->
+  <g id="ai-system-hero">
+    <!-- Deep Breathing Ambient Halo behind Network (10-12s Cycle) -->
+    <circle cx="490" cy="125" r="115" fill="url(#aura-hero)">
+      <animate attributeName="r" values="100;125;100" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="11s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Organic Spokes from Central AGENT (490, 125) -->
+    <!-- 1. to LLM (450, 44) -->
+    <line x1="490" y1="125" x2="450" y2="44" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#38bdf8;#1e293b" dur="3.8s" repeatCount="indefinite" />
+    </line>
+    <!-- 2. to RAG (562, 56) -->
+    <line x1="490" y1="125" x2="562" y2="56" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#6366f1;#1e293b" dur="4.2s" repeatCount="indefinite" />
+    </line>
+    <!-- 3. to TOOLS (598, 140) -->
+    <line x1="490" y1="125" x2="598" y2="140" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#38bdf8;#1e293b" dur="3.4s" repeatCount="indefinite" />
+    </line>
+    <!-- 4. to MEMORY (542, 204) -->
+    <line x1="490" y1="125" x2="542" y2="204" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#6366f1;#1e293b" dur="4.6s" repeatCount="indefinite" />
+    </line>
+    <!-- 5. to DATA (432, 196) -->
+    <line x1="490" y1="125" x2="432" y2="196" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#38bdf8;#1e293b" dur="3.6s" repeatCount="indefinite" />
+    </line>
+    <!-- 6. to API (394, 106) -->
+    <line x1="490" y1="125" x2="394" y2="106" stroke="#1e293b" stroke-width="0.9">
+      <animate attributeName="stroke" values="#1e293b;#6366f1;#1e293b" dur="4.0s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Organic Outer Mesh Links & Background Fading Traces -->
+    <line x1="450" y1="44" x2="562" y2="56" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+    <line x1="562" y1="56" x2="598" y2="140" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+    <line x1="598" y1="140" x2="542" y2="204" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+    <line x1="542" y1="204" x2="432" y2="196" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+    <line x1="432" y1="196" x2="394" y2="106" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+    <line x1="394" y1="106" x2="450" y2="44" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2 3" opacity="0.45" />
+
+    <!-- Extended Satellite Traces (Fading into ambient background) -->
+    <line x1="562" y1="56" x2="648" y2="34" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="1 3" opacity="0.3" />
+    <circle cx="648" cy="34" r="2" fill="#38bdf8" opacity="0.35" />
+    <line x1="598" y1="140" x2="668" y2="168" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="1 3" opacity="0.3" />
+    <circle cx="668" cy="168" r="2" fill="#6366f1" opacity="0.35" />
+    <line x1="450" y1="44" x2="408" y2="24" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="1 3" opacity="0.3" />
+    <circle cx="408" cy="24" r="2" fill="#38bdf8" opacity="0.35" />
+    <line x1="394" y1="106" x2="362" y2="152" stroke="#1e293b" stroke-width="0.5" opacity="0.25" />
+    <circle cx="362" cy="152" r="1.8" fill="#6366f1" opacity="0.35" />
+
+    <!-- Flowing Data Packets (Subtle, varied speeds: DATA -> RETRIEVE -> REASON -> ACT) -->
+    <path d="M 432 196 L 490 125" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="3 85" stroke-linecap="round" fill="none" opacity="0.75">
+      <animate attributeName="stroke-dashoffset" from="88" to="0" dur="2.8s" repeatCount="indefinite" />
+    </path>
+    <path d="M 562 56 L 490 125" stroke="#818cf8" stroke-width="1.6" stroke-dasharray="3 92" stroke-linecap="round" fill="none" opacity="0.75">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="3.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M 450 44 L 490 125" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="3 85" stroke-linecap="round" fill="none" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" from="88" to="0" dur="4.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 490 125 L 598 140" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 105" stroke-linecap="round" fill="none" opacity="0.65">
+      <animate attributeName="stroke-dashoffset" from="0" to="-108" dur="2.4s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Surrounding Domain Nodes (Organic sizes & refined strokes) -->
+    <g transform="translate(450, 44)">
+      <circle cx="0" cy="0" r="12.5" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#38bdf8;#334155" dur="3.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3" class="mono lbl-node">LLM</text>
+    </g>
+    <g transform="translate(562, 56)">
+      <circle cx="0" cy="0" r="13" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#6366f1;#334155" dur="4.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3" class="mono lbl-node">RAG</text>
+    </g>
+    <g transform="translate(598, 140)">
+      <circle cx="0" cy="0" r="13.5" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#38bdf8;#334155" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3" class="mono lbl-node">TOOLS</text>
+    </g>
+    <g transform="translate(542, 204)">
+      <circle cx="0" cy="0" r="14.5" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#6366f1;#334155" dur="4.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.8" class="mono lbl-node" font-size="7">MEMORY</text>
+    </g>
+    <g transform="translate(432, 196)">
+      <circle cx="0" cy="0" r="12.5" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#38bdf8;#334155" dur="3.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3" class="mono lbl-node">DATA</text>
+    </g>
+    <g transform="translate(394, 106)">
+      <circle cx="0" cy="0" r="11.5" fill="#070d1a" stroke="#334155" stroke-width="0.9">
+        <animate attributeName="stroke" values="#334155;#6366f1;#334155" dur="4.0s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3" class="mono lbl-node">API</text>
+    </g>
+
+    <!-- Central AGENT Node (Breathing ~4s Rhythm) -->
+    <g transform="translate(490, 125)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.3">
+        <animate attributeName="r" values="26;32;26" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.35;0.08;0.35" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="21" fill="url(#core-glow)" stroke="#6366f1" stroke-width="1.5">
+        <animate attributeName="stroke" values="#6366f1;#38bdf8;#6366f1" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="r" values="21;22;21" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3.5" class="mono lbl-agent">AGENT</text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- ZONE 3: RIGHT — INTEGRATED ATMOSPHERIC READOUT (No visible box)  -->
+  <!-- ================================================================= -->
+  <g id="ambient-readout" transform="translate(732, 54)">
+    <!-- Subtle Header Label -->
+    <text x="0" y="10" class="mono readout-title">SYS // INTELLIGENCE</text>
+    <line x1="0" y1="20" x2="98" y2="20" stroke="#1e293b" stroke-width="0.5" opacity="0.6" />
+
+    <!-- 4 Tiny Pulsing Status Indicators -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="0" class="mono readout-item">AGENTS</text>
+      <circle cx="92" cy="-3.5" r="2.4" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="2.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g transform="translate(0, 66)">
+      <text x="0" y="0" class="mono readout-item">RAG</text>
+      <circle cx="92" cy="-3.5" r="2.4" fill="#818cf8">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g transform="translate(0, 90)">
+      <text x="0" y="0" class="mono readout-item">TOOLS</text>
+      <circle cx="92" cy="-3.5" r="2.4" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g transform="translate(0, 114)">
+      <text x="0" y="0" class="mono readout-item">RESEARCH</text>
+      <circle cx="92" cy="-3.5" r="2.4" fill="#6366f1">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="3.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <line x1="0" y1="128" x2="98" y2="128" stroke="#1e293b" stroke-width="0.5" opacity="0.6" />
+
+    <!-- Faint Terminal Prompt & Cursor -->
+    <g transform="translate(0, 142)">
+      <text x="0" y="0" class="mono prompt-label">
+        <tspan fill="#38bdf8">❯</tspan> <tspan fill="#64748b">state: active</tspan>
+      </text>
+      <rect x="74" y="-8" width="3.5" height="8" fill="#38bdf8" opacity="0.8">
+        <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- Faint Atmospheric Scan Movement Across Canvas (10s Cycle) -->
+  <rect x="700" y="0" width="160" height="24" fill="url(#soft-scan)">
+    <animate attributeName="y" from="0" to="226" dur="10s" repeatCount="indefinite" />
+  </rect>
+</svg>

@@ -1,306 +1,217 @@
 <div align="center">
 
-# Hey, I'm Saffron 👋
+  <img src="assets/header_banner.svg" alt="Saffron Singh — AI/ML Developer, AI Agents, Software Engineering and Research" width="880" />
 
-### AI/ML Engineer in Progress • Software Developer • Researcher
-
-<p>
-  <a href="https://github.com/saffronsarb">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://www.linkedin.com/in/saffron-singh-851a44415/?skipRedirect=true">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
-  </a>
-</p>
+  <p align="center">
+    <a href="https://github.com/saffronsarb">
+      <img src="https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://shooliniuniversity.com">
+      <img src="https://img.shields.io/badge/University-Shoolini%20University-10b981?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Shoolini University" />
+    </a>
+    <a href="#-building-intelligent-systems">
+      <img src="https://img.shields.io/badge/Focus-AI%20%26%20Intelligent%20Systems-6366f1?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus" />
+    </a>
+  </p>
 
 </div>
 
 ---
 
-## 🧠 About Me
+### 👨‍💻 Profile Configuration: `saffron.config.json`
 
-I'm **Saffron**, a B.Tech Computer Science Engineering student specializing in **AI & ML** at **Shoolini University**.
-
-I'm interested in understanding how intelligent systems are built—from the underlying software and data pipelines to **LLM applications, AI agents, automation, and production systems**.
-
-Currently, I'm focused on:
-
-* 🤖 AI Engineering & Generative AI
-* 🧩 AI Agents and agentic workflows
-* 🔄 Workflow automation with n8n
-* 🐍 Python development
-* 🌐 Full-stack software engineering
-* 🧠 Machine Learning
-* 🔬 Research & experimentation
-* 🏆 Hackathons and real-world projects
-
-> **Build → Break → Understand → Improve.**
-
----
-
-## 🚀 What I'm Building
-
-### 🤖 AI Agents
-
-Exploring multi-agent systems, tool use, orchestration, memory, structured outputs, and reliable AI workflows.
-
-### 🔄 AI Automation
-
-Building practical AI-powered workflows using **n8n**, APIs, databases, and intelligent automation.
-
-### 🧠 Generative AI
-
-Experimenting with LLM applications, RAG systems, AI pipelines, and domain-specific AI solutions.
-
-### 💻 Software Engineering
-
-Developing my foundations in backend systems, APIs, databases, deployment, authentication, security, and scalable application architecture.
+```json
+{
+  "developer": "Saffron Singh",
+  "focus": ["AI/ML", "AI Agents", "Software Engineering"],
+  "current_work": "Intelligent systems & AI automation",
+  "education": "B.Tech CSE — Shoolini University",
+  "creed": "Build → Break → Understand → Improve."
+}
+```
 
 ---
 
 ## ⭐ Featured Projects
 
-<table>
-<tr>
-<td width="50%">
+### 01. [AI Enterprise Knowledge Manager](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
 
-### 🧭 FinPilot AI
+Multi-agent knowledge management prototype developed during the **IIT Jammu Summer School 2026 Internship Program**.
 
-AI-focused financial application exploring intelligent assistance and practical AI-driven workflows.
+* **7-Agent Hub-and-Spoke Architecture:** Centralized orchestrator dynamically delegating across 6 specialized domain agents (*Policy, Meeting, Reader, Recommendation, Search, Curator*).
+* **OpenAI Agents SDK + Pydantic:** Strict structured schemas, deterministic function calling, and session memory for reliable multi-turn execution.
+* **Tool-Based Knowledge Workflows:** Document ingestion, contextual retrieval, and human-in-the-loop approval mechanisms.
 
-**Focus:** AI • Python • Application Development
+```mermaid
+graph TD
+  User([User / Client]) --> Orch[Orchestrator Agent]
+  Orch --> Policy[Policy Agent]
+  Orch --> Meeting[Meeting Agent]
+  Orch --> Reader[Reader Agent]
+  Orch --> Search[Search Agent]
+  Orch --> Rec[Recommendation Agent]
+  Orch --> Curator[Curator Agent]
+```
 
-</td>
-
-<td width="50%">
-
-### 🧘 Well-beings
-
-A software project focused on building a practical digital application around wellbeing.
-
-**Focus:** Application Development • Software Engineering
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🏎️ Car Racing Game
-
-A game-development project demonstrating programming fundamentals, application logic, and interactive software development.
-
-**Focus:** C++ • Game Development
-
-</td>
-
-<td width="50%">
-
-### 🤖 Generative AI Projects
-
-A collection of experiments and projects exploring modern Generative AI concepts and applications.
-
-**Focus:** Python • GenAI • AI/ML
-
-</td>
-</tr>
-</table>
+**Stack:** `Python` • `OpenAI Agents SDK` • `Pydantic v2` • `Multi-Agent Orchestration` • `RAG`  
+👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
 
 ---
 
-## 🧩 Current Major Projects
+### 02. [FinPilot AI](https://github.com/saffronsarb/FinPilot-AI)
 
-### 🔗 AI Event Management — n8n
+Full-stack student finance companion combining conversational AI with budgeting and transaction management.
 
-A complete AI-powered event-management automation system built around workflow orchestration.
+* **React + TypeScript Frontend:** Responsive financial dashboard with category spending visualizations, monthly allowance tracking, and recent activity logs.
+* **Express + SQLite Backend:** Local-first data persistence, authenticated sessions via JWT & bcrypt, and modular REST API routes.
+* **Google Gemini + Structured Validation:** Conversational assistant that converts natural-language expense descriptions into validated transaction records via Zod schemas.
 
-**Exploring:**
-
-`AI Automation` `n8n` `APIs` `Google Sheets` `LLMs` `Data Processing` `Analytics`
-
----
-
-### 🧠 AI Enterprise Knowledge Manager — OpenAI Agents SDK
-
-A multi-agent knowledge-management system designed to work with enterprise documentation, policies, meeting information, and project knowledge.
-
-The architecture explores:
-
-* Multi-agent orchestration
-* Specialist agents
-* Tool calling
-* Structured outputs
-* Session memory
-* Human approval
-* Document understanding
-* Knowledge retrieval
-* Provenance and conflict detection
-* Prompt-injection defenses
-* Automated testing
-
-**Focus:**
-
-`Python` `AI Agents` `LLMs` `RAG` `Pydantic` `Agent Architecture`
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js,html,css" />
+<p align="center">
+  <a href="https://github.com/saffronsarb/FinPilot-AI">
+    <img src="https://raw.githubusercontent.com/saffronsarb/FinPilot-AI/main/client/public/images/landingpage_ss.png" alt="FinPilot AI Dashboard Preview" width="720" style="border-radius: 8px; border: 1px solid #30363d;" />
+  </a>
+  <br />
+  <sub>Conversational finance + full-stack web architecture</sub>
 </p>
 
-### AI / Data
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,pytorch" />
-</p>
-
-`Generative AI` `LLMs` `RAG` `AI Agents` `Machine Learning`
-
-### Web & Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql" />
-</p>
-
-`REST APIs` `Backend Development` `Full Stack`
-
-### Tools & Platforms
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker" />
-</p>
-
-`n8n` `GitHub Actions` `APIs`
+**Stack:** `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod`  
+👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/FinPilot-AI)
 
 ---
 
-## 📚 Currently Learning
+### 03. [Generative AI &amp; Deep Learning Experiments](https://github.com/saffronsarb/Generative-AI-Saffron-)
 
-| Area                    | Focus                                          |
-| ----------------------- | ---------------------------------------------- |
-| 🤖 AI Engineering       | LLM applications, agents, RAG, evaluation      |
-| 🧠 Machine Learning     | Models, training, experimentation              |
-| 🧩 Agentic AI           | Multi-agent architecture, tools, memory        |
-| 🔄 Automation           | n8n, APIs, event-driven workflows              |
-| 💻 Software Engineering | Architecture, testing, security, deployment    |
-| 🌐 Web Development      | Backend, APIs, databases, full-stack systems   |
-| ☁️ Cloud                | Deployment and infrastructure                  |
-| 🔐 Security             | Secure application development and AI security |
+Reproducible experiments exploring deep learning architectures and generative concepts in Python.
+
+* **Autoencoders &amp; Image Denoising:** Convolutional autoencoder implementations for noise reduction, latent feature representation, and image reconstruction.
+* **Model Experimentation:** Hands-on notebooks exploring neural representations, data preprocessing, and training pipelines.
+* **Foundational Workflows:** Structured Jupyter experiments documenting reproducible machine learning workflows.
+
+**Stack:** `Python` • `Jupyter Notebook` • `Deep Learning` • `Autoencoders` • `Computer Vision`  
+👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Generative-AI-Saffron-)
 
 ---
 
-## 📈 GitHub Activity
+### 04. [C++ Programming Foundations](https://github.com/saffronsarb/Safi_cpp_programs)
+
+C++ practice collection focused on programming fundamentals, object-oriented concepts, algorithms, and data structures.
+
+* **Core Algorithms &amp; OOP:** Practical implementations of binary search, bubble sort, class construction, constructors, and array manipulation.
+* **Data Structures:** Systematic exercises building foundational fluency in memory mechanics and problem-solving.
+* **System Understanding:** Low-level programming exercises supporting a solid conceptual base for higher-level AI engineering.
+
+**Stack:** `C++` • `Object-Oriented Programming` • `Algorithms` • `Data Structures`  
+👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Safi_cpp_programs)
+
+---
+
+## 🧠 Building Intelligent Systems
+
+I am actively developing technical depth at the intersection of machine learning and practical software engineering:
+
+* **Multi-Agent Systems**  
+  Building specialized agents coordinated through orchestration and structured handoffs.
+
+* **RAG &amp; Grounded AI**  
+  Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
+
+* **Structured AI**  
+  Using schemas and validation to make model outputs predictable and application-ready.
+
+* **AI Automation**  
+  Exploring event-driven workflows and AI automation with tools such as n8n.
+
+---
+
+## 🛠️ Technical Stack
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=saffronsarb&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github" width="48%" />
+### AI &amp; Machine Learning
+<p>
+  <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-10A37F?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Agents SDK" />
+  <img src="https://img.shields.io/badge/Google%20Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini API" />
+  <img src="https://img.shields.io/badge/RAG%20Patterns-06B6D4?style=flat-square&logo=databricks&logoColor=white" alt="RAG" />
+  <img src="https://img.shields.io/badge/Generative%20AI-6366F1?style=flat-square&logo=robot&logoColor=white" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/PyTorch%20(Foundations)-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saffronsarb&layout=compact&hide_border=true&langs_count=8" width="48%" />
+### Programming Languages
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css" alt="Programming Languages" />
+  </a>
+</p>
 
-</div>
+### Web &amp; Backend
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,sqlite,tailwind" alt="Web & Backend" />
+  </a>
+</p>
 
-<br>
+### Tools &amp; Environments
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman" alt="Developer Tools" />
+  </a>
+</p>
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=saffronsarb&hide_border=true" width="70%" />
+### 🔭 Exploring Next
+<p>
+  <img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Docker%20Containerization-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
+</p>
 
 </div>
 
 ---
 
-## 🎯 2026 — Building Toward
+## 📚 Academic &amp; Coursework
 
-```text
-AI Engineering
-      ↓
-AI Agents & Automation
-      ↓
-Production Software
-      ↓
-Research & Experimentation
-      ↓
-Real-World Impact
-```
+Alongside flagship projects, I maintain codebases from university coursework and collaborative studies:
 
-### Goals
-
-* [x] Build AI-powered projects
-* [x] Explore Generative AI
-* [x] Build workflow automation systems
-* [x] Explore AI agent architectures
-* [ ] Build production-grade AI applications
-* [ ] Contribute to open source
-* [ ] Deploy more projects publicly
-* [ ] Deepen system design & software engineering
-* [ ] Publish meaningful technical work
-* [ ] Continue research in AI/ML
+* 🏛️ [**Class-codes-C**](https://github.com/saffronsarb/Class-codes-C) — Foundational C programming class exercises at Shoolini University.
+* 📈 [**financial_advisor-2-**](https://github.com/saffronsarb/financial_advisor-2-) — Second-semester Python financial data exploration coursework.
+* 🤝 [**Well-beings**](https://github.com/saffronsarb/Well-beings) — Collaborative digital wellbeing repository (forked study on healthcare app architecture).
 
 ---
 
-## 🧪 Research Interests
+## 🎯 2026 Roadmap
 
-I'm particularly interested in the intersection of:
-
-**Artificial Intelligence × Software Engineering × Automation**
-
-Areas I'm exploring include:
-
-* Agentic AI
-* Multi-agent systems
-* Retrieval-Augmented Generation
-* LLM reliability
-* AI evaluation
-* AI security
-* Human-in-the-loop systems
-* Intelligent automation
-* AI-assisted software engineering
+* [ ] Deploy 1+ full-stack AI applications to public cloud hosting
+* [ ] Deepen agent evaluation frameworks and output reliability benchmarks
+* [ ] Learn Docker containerization and automated CI/CD pipelines
+* [ ] Make first meaningful code contributions to open-source AI projects
+* [ ] Continue applied AI/ML research and deep learning experimentation
+* [ ] Deepen core software engineering, testing, and system fundamentals
 
 ---
 
-## 📊 My Development Philosophy
-
-```text
-Don't just use AI.
-Understand it.
-
-Don't just build demos.
-Build systems.
-
-Don't just write code.
-Understand the engineering behind it.
-
-Don't chase every new tool.
-Learn the principles underneath them.
-```
-
----
-
-## 🌱 Open Source
-
-I'm gradually moving toward contributing to open-source projects and learning how production engineering works beyond personal projects.
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in:
-
-* AI & ML
-* AI agents
-* Open-source development
-* Research
-* Hackathons
-* Interesting technical projects
-* Building things with other developers
+## 💡 Engineering Creed
 
 <div align="center">
 
-### Keep building. Keep learning. Keep experimenting. 🚀
+> *"Build → Break → Understand → Improve."*  
+> *"Don't just use AI. **Understand the engineering beneath it.***"*
 
-<div align="center">  (Special Thanks to AshishKumar161) </div>  
+</div>
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saffronsarb)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saffron.shoolini@gmail.com)
+
+<br />
+
+<p align="center">
+  <sub>Saffron Singh • B.Tech Computer Science (AI &amp; ML) • Shoolini University, Solan, India</sub>
+</p>
+
 </div>
