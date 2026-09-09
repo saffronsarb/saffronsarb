@@ -68,10 +68,10 @@ Full-stack student finance companion combining conversational AI with budgeting 
 
 <p align="center">
   <a href="https://github.com/saffronsarb/FinPilot-AI">
-    <img src="https://raw.githubusercontent.com/saffronsarb/FinPilot-AI/main/client/public/images/landingpage_ss.png" alt="FinPilot AI Dashboard Preview" width="720" style="border-radius: 8px; border: 1px solid #30363d;" />
+    <img src="assets/finpilot_preview.png" alt="FinPilot AI Conversational Financial Companion Preview" width="720" style="border-radius: 8px; border: 1px solid #30363d;" />
   </a>
   <br />
-  <sub>Conversational finance + full-stack web architecture</sub>
+  <sub>Conversational financial companion + intelligent budgeting assistance</sub>
 </p>
 
 **Stack:** `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod`  
