@@ -194,7 +194,7 @@ Alongside flagship projects, I maintain codebases from university coursework and
 <div align="center">
 
 > *"Build → Break → Understand → Improve."*  
-> *"Don't just use AI. **Understand the engineering beneath it.***"*
+> *"Don't just use AI. **Understand the engineering beneath it.**"*
 
 </div>
 
