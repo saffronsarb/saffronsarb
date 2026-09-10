@@ -181,7 +181,7 @@
     </g>
     <g transform="translate(0, 88)">
       <text x="0" y="0" class="mono readout-key">ECCENTRICITY</text>
-      <text x="114" y="0" class="mono readout-val" text-anchor="end">0.082 e</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">0.082</text>
     </g>
     <g transform="translate(0, 112)">
       <text x="0" y="0" class="mono readout-key">HARMONIC</text>

@@ -75,16 +75,16 @@
     <g transform="translate(0, 46)">
       <text x="0" y="10" class="mono cmd-prompt">❯ cat saffron.config.json</text>
       <text x="0" y="27" class="mono cmd-out">{</text>
-      <text x="14" y="43" class="mono cmd-out">"focus": <tspan fill="#00ff9d">"AI Agents, Multi-Agent RAG, Voice AI"</tspan>,</text>
-      <text x="14" y="59" class="mono cmd-out">"stack": <tspan fill="#38bdf8">["Python", "PyTorch", "LangGraph", "C++", "FastAPI"]</tspan>,</text>
+      <text x="14" y="43" class="mono cmd-out">"focus": <tspan fill="#00ff9d">"AI Agents, Multi-Agent RAG, Voice AI",</tspan></text>
+      <text x="14" y="59" class="mono cmd-out">"stack": <tspan fill="#38bdf8">["Python", "PyTorch", "LangGraph", "C++", "FastAPI"],</tspan></text>
       <text x="14" y="75" class="mono cmd-out">"research": <tspan fill="#e2e8f0">"IIT Jammu Summer School 2026 (Consensus DAG)"</tspan></text>
       <text x="0" y="91" class="mono cmd-out">}</text>
     </g>
 
     <!-- Line 3: Active Shell Prompt with Blinking Cursor -->
     <g transform="translate(0, 154)">
-      <text x="0" y="10" class="mono cmd-prompt">❯ run agent.orchestrate()</text>
-      <rect x="186" y="0" width="7" height="13" fill="#00ff9d">
+      <text x="0" y="10" class="mono cmd-prompt">❯ python agent.orchestrate()</text>
+      <rect x="215" y="0" width="7" height="13" fill="#00ff9d">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
       </rect>
     </g>

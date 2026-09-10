@@ -135,7 +135,7 @@
       <circle cx="0" cy="0" r="12" fill="#140308" stroke="#4c0519" stroke-width="1">
         <animate attributeName="stroke" values="#4c0519;#fb7185;#4c0519" dur="4s" repeatCount="indefinite" />
       </circle>
-      <text x="0" y="2.5" class="mono lbl-node">ZERO_OH</text>
+      <text x="0" y="2.5" class="mono lbl-node">ZERO-OVD</text>
     </g>
 
     <!-- Central Eclipse Core -->
