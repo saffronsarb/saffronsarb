@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" fill="none">
+  <title>Saffron Singh — Neuromorphic &amp; Synaptic Compute Banner</title>
+  <desc>Bio-Neural Neuromorphic Architecture for Saffron Singh</desc>
+
+  <defs>
+    <linearGradient id="bg-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02130c" />
+      <stop offset="50%" stop-color="#052417" />
+      <stop offset="100%" stop-color="#03160e" />
+    </linearGradient>
+
+    <linearGradient id="border-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.6" />
+      <stop offset="35%" stop-color="#10b981" stop-opacity="0.45" />
+      <stop offset="70%" stop-color="#6ee7b7" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#064e3b" stop-opacity="0.6" />
+    </linearGradient>
+
+    <radialGradient id="synapse-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#059669" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#02130c" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="core-emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="70%" stop-color="#022c1e" />
+      <stop offset="100%" stop-color="#10b981" />
+    </radialGradient>
+
+    <pattern id="bio-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="26" cy="26" r="0.6" fill="#10b981" fill-opacity="0.16" />
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#064e3b" stroke-width="0.3" stroke-opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .title-name { font-weight: 900; font-size: 42px; letter-spacing: 4px; fill: #f0fdf4; }
+    .title-sub { font-weight: 600; font-size: 13px; fill: #34d399; letter-spacing: 0.2px; }
+    .title-desc { font-weight: 400; font-size: 11.5px; fill: #a7f3d0; opacity: 0.8; }
+    .tag-meta { font-size: 8.5px; font-weight: 600; fill: #059669; letter-spacing: 1.5px; }
+    .lbl-node { font-size: 7.5px; font-weight: 700; fill: #6ee7b7; text-anchor: middle; letter-spacing: 0.5px; }
+    .lbl-core { font-size: 8.5px; font-weight: 800; fill: #ffffff; text-anchor: middle; letter-spacing: 1.4px; }
+    .readout-title { font-size: 8.5px; font-weight: 700; fill: #10b981; letter-spacing: 1.4px; }
+    .readout-key { font-size: 8.5px; font-weight: 500; fill: #6ee7b7; opacity: 0.7; letter-spacing: 0.6px; }
+    .readout-val { font-size: 8.5px; font-weight: 700; fill: #f0fdf4; letter-spacing: 0.4px; }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="1" y="1" width="878" height="248" rx="10" fill="url(#bg-emerald)" stroke="url(#border-emerald)" stroke-width="1" />
+  <rect x="2" y="2" width="876" height="246" rx="9" fill="url(#bio-grid)" />
+
+  <!-- Corner Tech Brackets -->
+  <path d="M 12 24 L 12 12 L 24 12" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.4" />
+  <path d="M 868 24 L 868 12 L 856 12" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.4" />
+  <path d="M 12 226 L 12 238 L 24 238" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.4" />
+  <path d="M 868 226 L 868 238 L 856 238" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.4" />
+
+  <!-- ZONE 1: LEFT — IDENTITY -->
+  <g transform="translate(48, 52)">
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="4" r="2" fill="#10b981" />
+      <text x="12" y="7" class="mono tag-meta">NEUROMORPHIC BIO-COMPUTE</text>
+    </g>
+    <text x="0" y="58" class="sans title-name">SAFFRON</text>
+    <text x="0" y="88" class="sans title-sub">
+      AI/ML Developer <tspan fill="#10b981">•</tspan> AI Agents <tspan fill="#10b981">•</tspan> Software Engineering
+    </text>
+    <text x="0" y="112" class="sans title-desc">
+      Synaptic plasticity, spiking neural networks &amp; agentic loops
+    </text>
+  </g>
+
+  <!-- ZONE 2: CENTER — SYNAPTIC DENDRITIC ARBOR -->
+  <g id="synaptic-mesh">
+    <!-- Breathing Ambient Halo -->
+    <circle cx="494" cy="125" r="110" fill="url(#synapse-glow)">
+      <animate attributeName="r" values="95;120;95" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="7s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Organic Axon & Dendrite Channels (Smooth Curves) -->
+    <path d="M 375 75 C 420 85 450 110 494 125" fill="none" stroke="#064e3b" stroke-width="1">
+      <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="3.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 375 175 C 420 165 450 140 494 125" fill="none" stroke="#064e3b" stroke-width="1">
+      <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="4.0s" repeatCount="indefinite" />
+    </path>
+    <path d="M 494 125 C 535 110 570 85 615 75" fill="none" stroke="#064e3b" stroke-width="1">
+      <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="3.6s" repeatCount="indefinite" />
+    </path>
+    <path d="M 494 125 C 535 140 570 165 615 175" fill="none" stroke="#064e3b" stroke-width="1">
+      <animate attributeName="stroke" values="#064e3b;#6ee7b7;#064e3b" dur="4.4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 435 45 C 465 75 480 100 494 125" fill="none" stroke="#064e3b" stroke-width="0.8">
+      <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="3.0s" repeatCount="indefinite" />
+    </path>
+    <path d="M 435 205 C 465 175 480 150 494 125" fill="none" stroke="#064e3b" stroke-width="0.8">
+      <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="4.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 555 45 C 525 75 508 100 494 125" fill="none" stroke="#064e3b" stroke-width="0.8">
+      <animate attributeName="stroke" values="#064e3b;#6ee7b7;#064e3b" dur="3.8s" repeatCount="indefinite" />
+    </path>
+    <path d="M 555 205 C 525 175 508 150 494 125" fill="none" stroke="#064e3b" stroke-width="0.8">
+      <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="3.4s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Synaptic Vesicle Pulse Particles -->
+    <circle r="2.2" fill="#6ee7b7">
+      <animateMotion path="M 375 75 C 420 85 450 110 494 125 C 535 140 570 165 615 175" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4.8s" repeatCount="indefinite" />
+    </circle>
+    <circle r="2" fill="#10b981">
+      <animateMotion path="M 375 175 C 420 165 450 140 494 125 C 535 110 570 85 615 75" dur="5.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5.5s" repeatCount="indefinite" />
+    </circle>
+    <circle r="1.8" fill="#34d399">
+      <animateMotion path="M 435 45 C 465 75 480 100 494 125 L 555 205" dur="4.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.9;1" dur="4.2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Synaptic Peripheral Terminal Nodes -->
+    <!-- Presynaptic inputs -->
+    <g transform="translate(375, 75)">
+      <circle cx="0" cy="0" r="12" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="3.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">AXON</text>
+    </g>
+    <g transform="translate(375, 175)">
+      <circle cx="0" cy="0" r="12" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="4.0s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">SPIKE</text>
+    </g>
+    <g transform="translate(435, 45)">
+      <circle cx="0" cy="0" r="11" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#6ee7b7;#064e3b" dur="3.0s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">FLUX</text>
+    </g>
+    <g transform="translate(435, 205)">
+      <circle cx="0" cy="0" r="11" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="4.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">STDP</text>
+    </g>
+
+    <!-- Postsynaptic outputs -->
+    <g transform="translate(555, 45)">
+      <circle cx="0" cy="0" r="11" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="3.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">ION</text>
+    </g>
+    <g transform="translate(555, 205)">
+      <circle cx="0" cy="0" r="11" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#6ee7b7;#064e3b" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">GABA</text>
+    </g>
+    <g transform="translate(615, 75)">
+      <circle cx="0" cy="0" r="12" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#10b981;#064e3b" dur="3.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">ACTION</text>
+    </g>
+    <g transform="translate(615, 175)">
+      <circle cx="0" cy="0" r="12" fill="#021a10" stroke="#064e3b" stroke-width="1">
+        <animate attributeName="stroke" values="#064e3b;#34d399;#064e3b" dur="4.4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">POTENTIAL</text>
+    </g>
+
+    <!-- Central Synapse Hub -->
+    <g transform="translate(494, 125)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#10b981" stroke-width="0.8" opacity="0.3">
+        <animate attributeName="r" values="26;33;26" dur="3.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.35;0.08;0.35" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="20" fill="url(#core-emerald)" stroke="#34d399" stroke-width="1.6">
+        <animate attributeName="stroke" values="#34d399;#6ee7b7;#34d399" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3.5" class="mono lbl-core">SYNAPSE</text>
+    </g>
+  </g>
+
+  <!-- ZONE 3: RIGHT — NEUROMORPHIC TELEMETRY -->
+  <g id="synaptic-telemetry" transform="translate(720, 54)">
+    <text x="0" y="10" class="mono readout-title">SYS // NEUROMORPHIC</text>
+    <line x1="0" y1="20" x2="114" y2="20" stroke="#064e3b" stroke-width="0.5" opacity="0.6" />
+
+    <g transform="translate(0, 40)">
+      <text x="0" y="0" class="mono readout-key">PLASTICITY</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">STDP ACTIVE</text>
+    </g>
+    <g transform="translate(0, 64)">
+      <text x="0" y="0" class="mono readout-key">MEMBRANE</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">-65 mV</text>
+    </g>
+    <g transform="translate(0, 88)">
+      <text x="0" y="0" class="mono readout-key">SPIKE RATE</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">142 Hz</text>
+    </g>
+    <g transform="translate(0, 112)">
+      <text x="0" y="0" class="mono readout-key">ENERGY</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end" fill="#34d399">0.38 pJ/OP</text>
+    </g>
+
+    <line x1="0" y1="126" x2="114" y2="126" stroke="#064e3b" stroke-width="0.5" opacity="0.6" />
+
+    <g transform="translate(0, 140)">
+      <text x="0" y="0" class="mono" font-size="8" fill="#059669">
+        <tspan fill="#34d399">❯</tspan> synapse.fire()
+      </text>
+      <rect x="80" y="-8" width="3.5" height="8" fill="#34d399" opacity="0.8">
+        <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

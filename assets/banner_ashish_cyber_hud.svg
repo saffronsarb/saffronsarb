@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" fill="none">
+  <title>Saffron Singh — Tactical Cyber HUD (Ashish Inspired)</title>
+  <desc>Tactical Cybernetic HUD Radar &amp; Telemetry Matrix for Saffron Singh</desc>
+
+  <defs>
+    <linearGradient id="hud-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040814" />
+      <stop offset="50%" stop-color="#071126" />
+      <stop offset="100%" stop-color="#050a18" />
+    </linearGradient>
+
+    <linearGradient id="hud-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ff0055" stop-opacity="0.6" />
+    </linearGradient>
+
+    <pattern id="hud-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00ff9d" stroke-width="0.3" stroke-opacity="0.12" />
+      <circle cx="30" cy="30" r="0.6" fill="#00f0ff" fill-opacity="0.2" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .hud-title { font-weight: 900; font-size: 38px; letter-spacing: 5px; fill: #ffffff; }
+    .hud-sub { font-weight: 600; font-size: 12.5px; fill: #00f0ff; letter-spacing: 0.8px; }
+    .hud-desc { font-weight: 400; font-size: 11px; fill: #94a3b8; }
+    .hud-tag { font-size: 8.5px; font-weight: 700; fill: #00ff9d; letter-spacing: 1.8px; }
+    .telemetry-title { font-size: 9px; font-weight: 800; fill: #00ff9d; letter-spacing: 1.6px; }
+    .telemetry-key { font-size: 8.5px; font-weight: 600; fill: #64748b; letter-spacing: 0.8px; }
+    .telemetry-val { font-size: 9px; font-weight: 700; fill: #00f0ff; letter-spacing: 0.5px; }
+    .bracket { stroke: #00ff9d; stroke-width: 1.2; fill: none; opacity: 0.7; }
+  </style>
+
+  <!-- Outer Shell & Background -->
+  <rect x="1" y="1" width="878" height="248" rx="8" fill="url(#hud-bg)" stroke="url(#hud-border)" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="246" rx="7" fill="url(#hud-grid)" />
+
+  <!-- Tactical Corner Brackets (Inspired by Ashish Cyber HUD) -->
+  <path class="bracket" d="M 12 28 L 12 12 L 28 12" />
+  <path class="bracket" d="M 868 28 L 868 12 L 852 12" stroke="#ff0055" />
+  <path class="bracket" d="M 12 222 L 12 238 L 28 238" stroke="#00f0ff" />
+  <path class="bracket" d="M 868 222 L 868 238 L 852 238" />
+
+  <!-- Horizontal Tactical Frame Marks -->
+  <line x1="38" y1="12" x2="60" y2="12" stroke="#00ff9d" stroke-width="0.8" opacity="0.5" />
+  <line x1="820" y1="12" x2="842" y2="12" stroke="#ff0055" stroke-width="0.8" opacity="0.5" />
+  <line x1="38" y1="238" x2="60" y2="238" stroke="#00f0ff" stroke-width="0.8" opacity="0.5" />
+  <line x1="820" y1="238" x2="842" y2="238" stroke="#00ff9d" stroke-width="0.8" opacity="0.5" />
+
+  <!-- ZONE 1: LEFT — OPERATIONAL IDENTITY -->
+  <g transform="translate(46, 50)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" fill="#00ff9d" />
+      <text x="16" y="8" class="mono hud-tag">SYS // SPEC_OPS AGENT LAB</text>
+    </g>
+    <text x="0" y="54" class="sans hud-title">SAFFRON SINGH</text>
+    <text x="0" y="84" class="sans hud-sub">
+      AI/ML Developer <tspan fill="#ff0055">•</tspan> AI Agents <tspan fill="#ff0055">•</tspan> Systems Engineer
+    </text>
+    <text x="0" y="108" class="sans hud-desc">
+      Multi-agent DAG protocols, low-latency audio &amp; neural inference
+    </text>
+
+    <!-- Mini Coordinate Stamp -->
+    <g transform="translate(0, 134)">
+      <text x="0" y="0" class="mono" font-size="8.5" fill="#64748b">
+        LOC: <tspan fill="#00f0ff">32.7°N 74.8°E</tspan> | CORE: <tspan fill="#00ff9d">ONLINE</tspan> | PROTOCOL: <tspan fill="#ffffff">A2A_DAG</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- ZONE 2: CENTER — TACTICAL ROTATING RADAR SCOPE -->
+  <g id="tactical-radar" transform="translate(496, 125)">
+    <!-- Concentric Target Distance Rings -->
+    <circle cx="0" cy="0" r="76" fill="none" stroke="#00ff9d" stroke-width="0.7" opacity="0.25" />
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#00f0ff" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4" />
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#00ff9d" stroke-width="0.7" opacity="0.3" />
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ff0055" stroke-width="0.8" opacity="0.5" />
+    <circle cx="0" cy="0" r="2.5" fill="#00ff9d" />
+
+    <!-- Tactical Crosshairs -->
+    <line x1="-82" y1="0" x2="82" y2="0" stroke="#00ff9d" stroke-width="0.6" opacity="0.35" />
+    <line x1="0" y1="-82" x2="0" y2="82" stroke="#00ff9d" stroke-width="0.6" opacity="0.35" />
+
+    <!-- 45-Degree Diagonal Ticks -->
+    <line x1="-54" y1="-54" x2="-46" y2="-46" stroke="#00f0ff" stroke-width="1" opacity="0.5" />
+    <line x1="54" y1="-54" x2="46" y2="-46" stroke="#00f0ff" stroke-width="1" opacity="0.5" />
+    <line x1="-54" y1="54" x2="-46" y2="46" stroke="#00f0ff" stroke-width="1" opacity="0.5" />
+    <line x1="54" y1="54" x2="46" y2="46" stroke="#00f0ff" stroke-width="1" opacity="0.5" />
+
+    <!-- Rotating Radar Scan Sweep Beam -->
+    <g>
+      <line x1="0" y1="0" x2="0" y2="-76" stroke="#00ff9d" stroke-width="1.8" opacity="0.85" />
+      <path d="M 0 0 L -30 -70 A 76 76 0 0 1 0 -76 Z" fill="#00ff9d" opacity="0.12" />
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3.6s" repeatCount="indefinite" />
+    </g>
+
+    <!-- Target Lock Blip 1: AGENT-01 -->
+    <g transform="translate(36, -32)">
+      <circle cx="0" cy="0" r="3" fill="#ff0055">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="7" fill="none" stroke="#ff0055" stroke-width="0.7">
+        <animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      <text x="9" y="3" class="mono" font-size="7.5" font-weight="700" fill="#ff0055">AGENT-01</text>
+    </g>
+
+    <!-- Target Lock Blip 2: RAG-MESH -->
+    <g transform="translate(-42, 28)">
+      <circle cx="0" cy="0" r="3" fill="#00f0ff">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="8" y="3" class="mono" font-size="7.5" font-weight="700" fill="#00f0ff">RAG-MESH</text>
+    </g>
+  </g>
+
+  <!-- ZONE 3: RIGHT — TACTICAL SYSTEM MATRIX -->
+  <g id="tactical-matrix" transform="translate(712, 50)">
+    <text x="0" y="10" class="mono telemetry-title">SYS // TACTICAL MATRIX</text>
+    <line x1="0" y1="18" x2="124" y2="18" stroke="#00ff9d" stroke-width="0.6" opacity="0.6" />
+
+    <g transform="translate(0, 36)">
+      <text x="0" y="0" class="mono telemetry-key">RADAR SCOPE</text>
+      <text x="124" y="0" class="mono telemetry-val" text-anchor="end">360° ACTIVE</text>
+    </g>
+    <g transform="translate(0, 58)">
+      <text x="0" y="0" class="mono telemetry-key">DAG CONSENSUS</text>
+      <text x="124" y="0" class="mono telemetry-val" text-anchor="end">SYNCHRONIZED</text>
+    </g>
+    <g transform="translate(0, 80)">
+      <text x="0" y="0" class="mono telemetry-key">INFERENCE LATENCY</text>
+      <text x="124" y="0" class="mono telemetry-val" text-anchor="end">11.4 ms</text>
+    </g>
+    <g transform="translate(0, 102)">
+      <text x="0" y="0" class="mono telemetry-key">SYSTEM INTEGRITY</text>
+      <text x="124" y="0" class="mono telemetry-val" text-anchor="end" fill="#00ff9d">OPTIMAL</text>
+    </g>
+
+    <line x1="0" y1="116" x2="124" y2="116" stroke="#1e293b" stroke-width="0.6" />
+
+    <g transform="translate(0, 134)">
+      <text x="0" y="0" class="mono" font-size="8" fill="#64748b">
+        <tspan fill="#00ff9d">❯</tspan> sys.lock_target()
+      </text>
+      <rect x="94" y="-8" width="3.5" height="8" fill="#00ff9d" opacity="0.8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

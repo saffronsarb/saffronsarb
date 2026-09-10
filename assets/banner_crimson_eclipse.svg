@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" fill="none">
+  <title>Saffron Singh — Crimson Eclipse Cyberpunk Banner</title>
+  <desc>Blood Crimson Eclipse &amp; Cybernetic Ronin AI for Saffron Singh</desc>
+
+  <defs>
+    <linearGradient id="crimson-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060105" />
+      <stop offset="50%" stop-color="#17030a" />
+      <stop offset="100%" stop-color="#090206" />
+    </linearGradient>
+
+    <linearGradient id="crimson-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4c0519" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#ff1e42" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#fb7185" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4c0519" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="eclipse-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1e42" stop-opacity="0.25" />
+      <stop offset="55%" stop-color="#e11d48" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#060105" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="core-eclipse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe4e6" />
+      <stop offset="35%" stop-color="#ff1e42" />
+      <stop offset="85%" stop-color="#881337" />
+      <stop offset="100%" stop-color="#1c0309" />
+    </radialGradient>
+
+    <pattern id="carbon-grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#4c0519" stroke-width="0.3" stroke-opacity="0.2" />
+      <circle cx="22" cy="22" r="0.5" fill="#ff1e42" fill-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .title-name { font-weight: 900; font-size: 42px; letter-spacing: 5px; fill: #ffffff; }
+    .title-sub { font-weight: 600; font-size: 13px; fill: #fb7185; letter-spacing: 0.3px; }
+    .title-desc { font-weight: 400; font-size: 11.5px; fill: #fda4af; opacity: 0.85; }
+    .tag-meta { font-size: 8.5px; font-weight: 700; fill: #ff1e42; letter-spacing: 2px; }
+    .lbl-node { font-size: 7.5px; font-weight: 700; fill: #fda4af; text-anchor: middle; letter-spacing: 0.5px; }
+    .lbl-core { font-size: 8.5px; font-weight: 900; fill: #ffffff; text-anchor: middle; letter-spacing: 1.6px; }
+    .readout-title { font-size: 8.5px; font-weight: 800; fill: #ff1e42; letter-spacing: 1.6px; }
+    .readout-key { font-size: 8.5px; font-weight: 500; fill: #9f1239; letter-spacing: 0.6px; }
+    .readout-val { font-size: 8.5px; font-weight: 700; fill: #fff1f2; letter-spacing: 0.4px; }
+    .slash-line { stroke: #ff1e42; stroke-width: 1.4; opacity: 0.7; }
+  </style>
+
+  <!-- Outer Shell & Background -->
+  <rect x="1" y="1" width="878" height="248" rx="10" fill="url(#crimson-bg)" stroke="url(#crimson-border)" stroke-width="1.2" />
+  <rect x="2" y="2" width="876" height="246" rx="9" fill="url(#carbon-grid)" />
+
+  <!-- Cyber Samurai Katana Slash Accent Line Across Header -->
+  <line x1="20" y1="20" x2="160" y2="20" class="slash-line" />
+  <line x1="720" y1="230" x2="860" y2="230" class="slash-line" />
+
+  <!-- Japanese Cyber Watermark Accent -->
+  <text x="496" y="195" class="sans" font-size="44" font-weight="900" fill="#4c0519" opacity="0.25" text-anchor="middle" letter-spacing="12px">
+    自律知能
+  </text>
+
+  <!-- Corner Precision Brackets -->
+  <path d="M 12 26 L 12 12 L 26 12" fill="none" stroke="#ff1e42" stroke-width="1.4" opacity="0.7" />
+  <path d="M 868 26 L 868 12 L 854 12" fill="none" stroke="#ff1e42" stroke-width="1.4" opacity="0.7" />
+  <path d="M 12 224 L 12 238 L 26 238" fill="none" stroke="#ff1e42" stroke-width="1.4" opacity="0.7" />
+  <path d="M 868 224 L 868 238 L 854 238" fill="none" stroke="#ff1e42" stroke-width="1.4" opacity="0.7" />
+
+  <!-- ZONE 1: LEFT — CRIMSON RONIN IDENTITY -->
+  <g transform="translate(48, 50)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="10" height="10" fill="#ff1e42" />
+      <text x="18" y="9" class="mono tag-meta">CRIMSON ECLIPSE // AI PROTOCOL</text>
+    </g>
+    <text x="0" y="56" class="sans title-name">SAFFRON</text>
+    <text x="0" y="86" class="sans title-sub">
+      AI/ML Developer <tspan fill="#ff1e42">•</tspan> AI Agents <tspan fill="#ff1e42">•</tspan> Software Engineering
+    </text>
+    <text x="0" y="110" class="sans title-desc">
+      High-throughput agent orchestration &amp; zero-overhead neural systems
+    </text>
+  </g>
+
+  <!-- ZONE 2: CENTER — CRIMSON ECLIPSE & HEXAGONAL LATTICE -->
+  <g id="crimson-core-manifold">
+    <!-- Eclipse Atmosphere Glow -->
+    <circle cx="496" cy="125" r="115" fill="url(#eclipse-glow)">
+      <animate attributeName="r" values="98;122;98" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Concentric Segmented Cyber Rings -->
+    <circle cx="496" cy="125" r="78" fill="none" stroke="#4c0519" stroke-width="1" stroke-dasharray="14 8" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0 496 125" to="360 496 125" dur="18s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="496" cy="125" r="52" fill="none" stroke="#ff1e42" stroke-width="0.8" stroke-dasharray="8 6" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="360 496 125" to="0 496 125" dur="12s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Diagonal Katana Slash Blades -->
+    <line x1="436" y1="65" x2="556" y2="185" stroke="#ff1e42" stroke-width="1.2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </line>
+    <line x1="436" y1="185" x2="556" y2="65" stroke="#fb7185" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6" />
+
+    <!-- Orbiting Crimson Blade Spark -->
+    <circle r="2.4" fill="#ffffff">
+      <animateMotion path="M 436 65 L 496 125 L 556 185 L 496 125 Z" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Peripheral Ronin Nodes -->
+    <g transform="translate(410, 80)">
+      <circle cx="0" cy="0" r="12" fill="#140308" stroke="#4c0519" stroke-width="1">
+        <animate attributeName="stroke" values="#4c0519;#ff1e42;#4c0519" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">BLADE</text>
+    </g>
+    <g transform="translate(410, 170)">
+      <circle cx="0" cy="0" r="12" fill="#140308" stroke="#4c0519" stroke-width="1">
+        <animate attributeName="stroke" values="#4c0519;#fb7185;#4c0519" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">STEALTH</text>
+    </g>
+    <g transform="translate(582, 80)">
+      <circle cx="0" cy="0" r="12" fill="#140308" stroke="#4c0519" stroke-width="1">
+        <animate attributeName="stroke" values="#4c0519;#ff1e42;#4c0519" dur="3.2s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">EXECUTE</text>
+    </g>
+    <g transform="translate(582, 170)">
+      <circle cx="0" cy="0" r="12" fill="#140308" stroke="#4c0519" stroke-width="1">
+        <animate attributeName="stroke" values="#4c0519;#fb7185;#4c0519" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">ZERO_OH</text>
+    </g>
+
+    <!-- Central Eclipse Core -->
+    <g transform="translate(496, 125)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#ff1e42" stroke-width="0.8" opacity="0.3">
+        <animate attributeName="r" values="26;33;26" dur="3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.35;0.08;0.35" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="21" fill="url(#core-eclipse)" stroke="#fb7185" stroke-width="1.6">
+        <animate attributeName="stroke" values="#fb7185;#ff1e42;#fb7185" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3.5" class="mono lbl-core">ECLIPSE</text>
+    </g>
+  </g>
+
+  <!-- ZONE 3: RIGHT — CRIMSON TELEMETRY -->
+  <g id="crimson-telemetry" transform="translate(718, 52)">
+    <text x="0" y="10" class="mono readout-title">SYS // CRIMSON PROTOCOL</text>
+    <line x1="0" y1="18" x2="114" y2="18" stroke="#4c0519" stroke-width="0.8" />
+
+    <g transform="translate(0, 36)">
+      <text x="0" y="0" class="mono readout-key">OVERCLOCK</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">4.8 GHz</text>
+    </g>
+    <g transform="translate(0, 58)">
+      <text x="0" y="0" class="mono readout-key">LATENCY</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">&lt; 4.8 ms</text>
+    </g>
+    <g transform="translate(0, 80)">
+      <text x="0" y="0" class="mono readout-key">CONSENSUS</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">DAG MESH</text>
+    </g>
+    <g transform="translate(0, 102)">
+      <text x="0" y="0" class="mono readout-key">STATUS</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end" fill="#ff1e42">UNLEASHED</text>
+    </g>
+
+    <line x1="0" y1="116" x2="114" y2="116" stroke="#4c0519" stroke-width="0.8" />
+
+    <g transform="translate(0, 134)">
+      <text x="0" y="0" class="mono" font-size="8" fill="#9f1239">
+        <tspan fill="#ff1e42">❯</tspan> ronin.strike()
+      </text>
+      <rect x="76" y="-8" width="3.5" height="8" fill="#ff1e42" opacity="0.9">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

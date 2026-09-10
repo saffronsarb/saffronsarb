@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250">
+    <defs>
+        <linearGradient id="bg_net" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f0f0f" />
+            <stop offset="100%" stop-color="#1a1a2e" />
+        </linearGradient>
+    </defs>
+    <rect width="880" height="250" fill="url(#bg_net)" />
+    
+    <g stroke="#4f46e5" stroke-width="1.5" opacity="0.3"><line x1="763" y1="100" x2="839" y2="124"/>
+<line x1="763" y1="100" x2="733" y2="190"/>
+<line x1="763" y1="100" x2="685" y2="151"/>
+<line x1="763" y1="100" x2="810" y2="201"/>
+<line x1="763" y1="100" x2="743" y2="211"/>
+<line x1="763" y1="100" x2="673" y2="25"/>
+<line x1="763" y1="100" x2="742" y2="118"/>
+<line x1="763" y1="100" x2="795" y2="152"/>
+<line x1="763" y1="100" x2="830" y2="108"/>
+<line x1="163" y1="45" x2="48" y2="56"/>
+<line x1="163" y1="45" x2="117" y2="63"/>
+<line x1="163" y1="45" x2="209" y2="55"/>
+<line x1="163" y1="45" x2="126" y2="83"/>
+<line x1="302" y1="164" x2="185" y2="184"/>
+<line x1="302" y1="164" x2="293" y2="59"/>
+<line x1="302" y1="164" x2="287" y2="52"/>
+<line x1="302" y1="164" x2="227" y2="220"/>
+<line x1="302" y1="164" x2="318" y2="150"/>
+<line x1="302" y1="164" x2="254" y2="174"/>
+<line x1="596" y1="120" x2="607" y2="177"/>
+<line x1="596" y1="120" x2="685" y2="151"/>
+<line x1="596" y1="120" x2="673" y2="25"/>
+<line x1="839" y1="124" x2="810" y2="201"/>
+<line x1="839" y1="124" x2="742" y2="118"/>
+<line x1="839" y1="124" x2="795" y2="152"/>
+<line x1="839" y1="124" x2="830" y2="108"/>
+<line x1="607" y1="177" x2="685" y2="151"/>
+<line x1="607" y1="177" x2="508" y2="226"/>
+<line x1="733" y1="190" x2="685" y2="151"/>
+<line x1="733" y1="190" x2="810" y2="201"/>
+<line x1="733" y1="190" x2="743" y2="211"/>
+<line x1="733" y1="190" x2="742" y2="118"/>
+<line x1="733" y1="190" x2="795" y2="152"/>
+<line x1="152" y1="183" x2="185" y2="184"/>
+<line x1="152" y1="183" x2="174" y2="201"/>
+<line x1="152" y1="183" x2="227" y2="220"/>
+<line x1="152" y1="183" x2="254" y2="174"/>
+<line x1="152" y1="183" x2="126" y2="83"/>
+<line x1="48" y1="56" x2="117" y2="63"/>
+<line x1="48" y1="56" x2="21" y2="157"/>
+<line x1="48" y1="56" x2="126" y2="83"/>
+<line x1="185" y1="184" x2="174" y2="201"/>
+<line x1="185" y1="184" x2="227" y2="220"/>
+<line x1="185" y1="184" x2="254" y2="174"/>
+<line x1="185" y1="184" x2="126" y2="83"/>
+<line x1="685" y1="151" x2="743" y2="211"/>
+<line x1="685" y1="151" x2="742" y2="118"/>
+<line x1="685" y1="151" x2="795" y2="152"/>
+<line x1="293" y1="59" x2="352" y2="30"/>
+<line x1="293" y1="59" x2="287" y2="52"/>
+<line x1="293" y1="59" x2="209" y2="55"/>
+<line x1="293" y1="59" x2="318" y2="150"/>
+<line x1="293" y1="59" x2="254" y2="174"/>
+<line x1="293" y1="59" x2="365" y2="52"/>
+<line x1="117" y1="63" x2="209" y2="55"/>
+<line x1="117" y1="63" x2="126" y2="83"/>
+<line x1="352" y1="30" x2="287" y2="52"/>
+<line x1="352" y1="30" x2="365" y2="52"/>
+<line x1="174" y1="201" x2="227" y2="220"/>
+<line x1="174" y1="201" x2="254" y2="174"/>
+<line x1="287" y1="52" x2="209" y2="55"/>
+<line x1="287" y1="52" x2="318" y2="150"/>
+<line x1="287" y1="52" x2="365" y2="52"/>
+<line x1="227" y1="220" x2="318" y2="150"/>
+<line x1="227" y1="220" x2="254" y2="174"/>
+<line x1="209" y1="55" x2="126" y2="83"/>
+<line x1="810" y1="201" x2="743" y2="211"/>
+<line x1="810" y1="201" x2="742" y2="118"/>
+<line x1="810" y1="201" x2="795" y2="152"/>
+<line x1="810" y1="201" x2="830" y2="108"/>
+<line x1="743" y1="211" x2="742" y2="118"/>
+<line x1="743" y1="211" x2="795" y2="152"/>
+<line x1="318" y1="150" x2="254" y2="174"/>
+<line x1="318" y1="150" x2="365" y2="52"/>
+<line x1="673" y1="25" x2="742" y2="118"/>
+<line x1="742" y1="118" x2="795" y2="152"/>
+<line x1="742" y1="118" x2="830" y2="108"/>
+<line x1="795" y1="152" x2="830" y2="108"/>
+</g>
+<g fill="#06b6d4"><circle cx="763" cy="100" r="3"/>
+<circle cx="163" cy="45" r="3"/>
+<circle cx="302" cy="164" r="3"/>
+<circle cx="596" cy="120" r="3"/>
+<circle cx="839" cy="124" r="3"/>
+<circle cx="607" cy="177" r="3"/>
+<circle cx="733" cy="190" r="3"/>
+<circle cx="152" cy="183" r="3"/>
+<circle cx="48" cy="56" r="3"/>
+<circle cx="185" cy="184" r="3"/>
+<circle cx="685" cy="151" r="3"/>
+<circle cx="293" cy="59" r="3"/>
+<circle cx="117" cy="63" r="3"/>
+<circle cx="352" cy="30" r="3"/>
+<circle cx="174" cy="201" r="3"/>
+<circle cx="287" cy="52" r="3"/>
+<circle cx="227" cy="220" r="3"/>
+<circle cx="209" cy="55" r="3"/>
+<circle cx="21" cy="157" r="3"/>
+<circle cx="810" cy="201" r="3"/>
+<circle cx="743" cy="211" r="3"/>
+<circle cx="318" cy="150" r="3"/>
+<circle cx="673" cy="25" r="3"/>
+<circle cx="742" cy="118" r="3"/>
+<circle cx="254" cy="174" r="3"/>
+<circle cx="795" cy="152" r="3"/>
+<circle cx="126" cy="83" r="3"/>
+<circle cx="365" cy="52" r="3"/>
+<circle cx="830" cy="108" r="3"/>
+<circle cx="508" cy="226" r="3"/>
+
+        <circle cx="0" cy="0" r="4" fill="#f43f5e" opacity="0.8">
+            <animateMotion path="M {nodes[0][0]},{nodes[0][1]} L {nodes[1][0]},{nodes[1][1]} L {nodes[2][0]},{nodes[2][1]} L {nodes[3][0]},{nodes[3][1]}" dur="5s" repeatCount="indefinite" />
+        </circle>
+    </g>
+
+    <text x="440" y="125" font-family="'Courier New', Courier, monospace" font-size="46" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+        > SAFFRON_SARBAJNA
+    </text>
+    
+    <rect x="240" y="145" width="400" height="30" fill="#1e1e3f" rx="4" opacity="0.8"/>
+    <text x="440" y="165" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="normal" fill="#a5b4fc" text-anchor="middle" letter-spacing="1">
+        SYS.ARCHITECT // DATA.ENGINEER // ML.RESEARCH
+    </text>
+</svg>

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" fill="none">
+  <title>Saffron Singh — Abyssal Trench Bioluminescence Banner</title>
+  <desc>Deep Oceanic Trench &amp; Bioluminescent Data Flow for Saffron Singh</desc>
+
+  <defs>
+    <linearGradient id="abyss-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010610" />
+      <stop offset="50%" stop-color="#03162b" />
+      <stop offset="100%" stop-color="#020d1c" />
+    </linearGradient>
+
+    <linearGradient id="abyss-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c4a6e" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#00f5d4" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#00bbf9" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="biolum-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#00bbf9" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#010610" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="core-abyss" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ccfbf1" />
+      <stop offset="35%" stop-color="#00f5d4" />
+      <stop offset="75%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#082f49" />
+    </radialGradient>
+
+    <pattern id="abyss-particles" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="28" cy="28" r="0.55" fill="#00f5d4" fill-opacity="0.18" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'JetBrains Mono', monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .title-name { font-weight: 900; font-size: 42px; letter-spacing: 5px; fill: #f0fdfa; }
+    .title-sub { font-weight: 600; font-size: 13px; fill: #00f5d4; letter-spacing: 0.3px; }
+    .title-desc { font-weight: 400; font-size: 11.5px; fill: #7dd3fc; opacity: 0.85; }
+    .tag-meta { font-size: 8.5px; font-weight: 700; fill: #0284c7; letter-spacing: 1.8px; }
+    .lbl-node { font-size: 7.5px; font-weight: 700; fill: #ccfbf1; text-anchor: middle; letter-spacing: 0.5px; }
+    .lbl-core { font-size: 8.5px; font-weight: 800; fill: #042f2e; text-anchor: middle; letter-spacing: 1.4px; }
+    .readout-title { font-size: 8.5px; font-weight: 700; fill: #00f5d4; letter-spacing: 1.4px; }
+    .readout-key { font-size: 8.5px; font-weight: 500; fill: #38bdf8; opacity: 0.75; letter-spacing: 0.6px; }
+    .readout-val { font-size: 8.5px; font-weight: 700; fill: #f0fdfa; letter-spacing: 0.4px; }
+  </style>
+
+  <!-- Outer Shell & Background -->
+  <rect x="1" y="1" width="878" height="248" rx="10" fill="url(#abyss-bg)" stroke="url(#abyss-border)" stroke-width="1" />
+  <rect x="2" y="2" width="876" height="246" rx="9" fill="url(#abyss-particles)" />
+
+  <!-- Corner Pressure Gauges -->
+  <circle cx="16" cy="16" r="5" fill="none" stroke="#00f5d4" stroke-width="0.8" opacity="0.6" />
+  <circle cx="864" cy="16" r="5" fill="none" stroke="#00bbf9" stroke-width="0.8" opacity="0.6" />
+  <circle cx="16" cy="234" r="5" fill="none" stroke="#00bbf9" stroke-width="0.8" opacity="0.6" />
+  <circle cx="864" cy="234" r="5" fill="none" stroke="#00f5d4" stroke-width="0.8" opacity="0.6" />
+
+  <!-- ZONE 1: LEFT — ABYSSAL RESEARCH IDENTITY -->
+  <g transform="translate(48, 50)">
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="4" r="2" fill="#00f5d4" />
+      <text x="14" y="7" class="mono tag-meta">DEEP OCEANIC &amp; HYDRODYNAMIC AI</text>
+    </g>
+    <text x="0" y="58" class="sans title-name">SAFFRON</text>
+    <text x="0" y="88" class="sans title-sub">
+      AI/ML Developer <tspan fill="#00bbf9">•</tspan> AI Agents <tspan fill="#00bbf9">•</tspan> Software Engineering
+    </text>
+    <text x="0" y="112" class="sans title-desc">
+      High-pressure streaming pipelines, fluid consensus &amp; deep models
+    </text>
+  </g>
+
+  <!-- ZONE 2: CENTER — HYDROTHERMAL TRENCH DATA CURRENTS -->
+  <g id="abyssal-sonar-currents">
+    <!-- Sonar Aura -->
+    <circle cx="496" cy="125" r="115" fill="url(#biolum-glow)">
+      <animate attributeName="r" values="98;125;98" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="7s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Hydrodynamic Flow Streamlines (Gentle Oceanic Waves) -->
+    <path d="M 370 70 C 420 120 460 120 496 125 C 532 130 570 130 620 70" fill="none" stroke="#0369a1" stroke-width="1.2">
+      <animate attributeName="stroke" values="#0369a1;#00f5d4;#0369a1" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M 370 180 C 420 130 460 130 496 125 C 532 120 570 120 620 180" fill="none" stroke="#0369a1" stroke-width="1.2">
+      <animate attributeName="stroke" values="#0369a1;#00bbf9;#0369a1" dur="5s" repeatCount="indefinite" />
+    </path>
+    <path d="M 430 40 Q 496 95 562 40" fill="none" stroke="#0c4a6e" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6" />
+    <path d="M 430 210 Q 496 155 562 210" fill="none" stroke="#0c4a6e" stroke-width="0.8" stroke-dasharray="3 3" opacity="0.6" />
+
+    <!-- Sonar Ping Rings -->
+    <circle cx="496" cy="125" r="60" fill="none" stroke="#00f5d4" stroke-width="0.6" opacity="0.3">
+      <animate attributeName="r" values="25;85;25" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="4s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Bioluminescent Spore Particle Flow -->
+    <circle r="2.2" fill="#00f5d4">
+      <animateMotion path="M 370 70 C 420 120 460 120 496 125 C 532 130 570 130 620 180" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle r="2" fill="#00bbf9">
+      <animateMotion path="M 370 180 C 420 130 460 130 496 125 C 532 120 570 120 620 70" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="6s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Peripheral Depth Nodes -->
+    <g transform="translate(370, 70)">
+      <circle cx="0" cy="0" r="12" fill="#021424" stroke="#0369a1" stroke-width="1">
+        <animate attributeName="stroke" values="#0369a1;#00f5d4;#0369a1" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">HYDRO</text>
+    </g>
+    <g transform="translate(370, 180)">
+      <circle cx="0" cy="0" r="12" fill="#021424" stroke="#0369a1" stroke-width="1">
+        <animate attributeName="stroke" values="#0369a1;#00bbf9;#0369a1" dur="5s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">TRENCH</text>
+    </g>
+    <g transform="translate(620, 70)">
+      <circle cx="0" cy="0" r="12" fill="#021424" stroke="#0369a1" stroke-width="1">
+        <animate attributeName="stroke" values="#0369a1;#00f5d4;#0369a1" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">STREAM</text>
+    </g>
+    <g transform="translate(620, 180)">
+      <circle cx="0" cy="0" r="12" fill="#021424" stroke="#0369a1" stroke-width="1">
+        <animate attributeName="stroke" values="#0369a1;#00bbf9;#0369a1" dur="5s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="2.5" class="mono lbl-node">ABYSS</text>
+    </g>
+
+    <!-- Central Abyssal Vent Core -->
+    <g transform="translate(496, 125)">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#00f5d4" stroke-width="0.8" opacity="0.3">
+        <animate attributeName="r" values="26;33;26" dur="3.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.35;0.08;0.35" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="20" fill="url(#core-abyss)" stroke="#00f5d4" stroke-width="1.6">
+        <animate attributeName="stroke" values="#00f5d4;#00bbf9;#00f5d4" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <text x="0" y="3.5" class="mono lbl-core">VENT</text>
+    </g>
+  </g>
+
+  <!-- ZONE 3: RIGHT — ABYSSAL TELEMETRY -->
+  <g id="abyss-telemetry" transform="translate(718, 54)">
+    <text x="0" y="10" class="mono readout-title">SYS // ABYSSAL METRICS</text>
+    <line x1="0" y1="20" x2="114" y2="20" stroke="#0c4a6e" stroke-width="0.5" opacity="0.8" />
+
+    <g transform="translate(0, 40)">
+      <text x="0" y="0" class="mono readout-key">DEPTH</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">10,928 m</text>
+    </g>
+    <g transform="translate(0, 64)">
+      <text x="0" y="0" class="mono readout-key">PRESSURE</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">108.6 MPa</text>
+    </g>
+    <g transform="translate(0, 88)">
+      <text x="0" y="0" class="mono readout-key">BANDWIDTH</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end">40 Gbps</text>
+    </g>
+    <g transform="translate(0, 112)">
+      <text x="0" y="0" class="mono readout-key">STATUS</text>
+      <text x="114" y="0" class="mono readout-val" text-anchor="end" fill="#00f5d4">CONTINUOUS</text>
+    </g>
+
+    <line x1="0" y1="126" x2="114" y2="126" stroke="#0c4a6e" stroke-width="0.5" opacity="0.8" />
+
+    <g transform="translate(0, 140)">
+      <text x="0" y="0" class="mono" font-size="8" fill="#38bdf8">
+        <tspan fill="#00f5d4">❯</tspan> abyss.stream()
+      </text>
+      <rect x="76" y="-8" width="3.5" height="8" fill="#00f5d4" opacity="0.8">
+        <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
