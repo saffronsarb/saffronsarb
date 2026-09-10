@@ -8,17 +8,30 @@ def rotate_banner():
     assets_dir = os.path.join(script_dir, '..', 'assets')
     target_banner = os.path.join(assets_dir, 'header_banner.svg')
     
-    # Get all banner files
-    banners = [f for f in os.listdir(assets_dir) if f.startswith('banner_') and f.endswith('.svg')]
+    # The specific banners the user selected
+    banners = [
+        "banner_aryan_ashish_terminal.svg",
+        "banner_retro_phosphor.svg",
+        "banner_crimson_eclipse.svg",
+        "banner_abyssal_trench.svg",
+        "banner_minimal_monolith.svg",
+        "banner_titanium_monolith.svg",
+        "banner_quantum_violet.svg",
+        "banner_stellar_amber.svg",
+        "banner_neo_synthwave.svg"
+    ]
     
-    if not banners:
+    # Verify they exist
+    available_banners = [b for b in banners if os.path.exists(os.path.join(assets_dir, b))]
+    
+    if not available_banners:
         print("Error: No banners found in the assets directory.")
         return
         
-    print(f"Found {len(banners)} banners available for rotation.")
+    print(f"Found {len(available_banners)} banners available for rotation.")
     
     # Pick a random banner
-    selected_banner = random.choice(banners)
+    selected_banner = random.choice(available_banners)
     source_path = os.path.join(assets_dir, selected_banner)
     
     # Copy the selected banner to header_banner.svg
