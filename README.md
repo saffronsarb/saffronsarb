@@ -79,11 +79,11 @@ Full-stack student finance companion combining conversational AI with budgeting 
 
 ---
 
-### 03. [Generative AI &amp; Deep Learning Experiments](https://github.com/saffronsarb/Generative-AI-Saffron-)
+### 03. [Generative AI & Deep Learning Experiments](https://github.com/saffronsarb/Generative-AI-Saffron-)
 
 Reproducible experiments exploring deep learning architectures and generative concepts in Python.
 
-* **Autoencoders &amp; Image Denoising:** Convolutional autoencoder implementations for noise reduction, latent feature representation, and image reconstruction.
+* **Autoencoders & Image Denoising:** Convolutional autoencoder implementations for noise reduction, latent feature representation, and image reconstruction.
 * **Model Experimentation:** Hands-on notebooks exploring neural representations, data preprocessing, and training pipelines.
 * **Foundational Workflows:** Structured Jupyter experiments documenting reproducible machine learning workflows.
 
@@ -96,7 +96,7 @@ Reproducible experiments exploring deep learning architectures and generative co
 
 C++ practice collection focused on programming fundamentals, object-oriented concepts, algorithms, and data structures.
 
-* **Core Algorithms &amp; OOP:** Practical implementations of binary search, bubble sort, class construction, constructors, and array manipulation.
+* **Core Algorithms & OOP:** Practical implementations of binary search, bubble sort, class construction, constructors, and array manipulation.
 * **Data Structures:** Systematic exercises building foundational fluency in memory mechanics and problem-solving.
 * **System Understanding:** Low-level programming exercises supporting a solid conceptual base for higher-level AI engineering.
 
@@ -112,7 +112,7 @@ I am actively developing technical depth at the intersection of machine learning
 * **Multi-Agent Systems**  
   Building specialized agents coordinated through orchestration and structured handoffs.
 
-* **RAG &amp; Grounded AI**  
+* **RAG & Grounded AI**  
   Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
 
 * **Structured AI**  
@@ -127,7 +127,7 @@ I am actively developing technical depth at the intersection of machine learning
 
 <div align="center">
 
-### AI &amp; Machine Learning
+### AI & Machine Learning
 <p>
   <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-10A37F?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Agents SDK" />
   <img src="https://img.shields.io/badge/Google%20Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini API" />
@@ -143,14 +143,14 @@ I am actively developing technical depth at the intersection of machine learning
   </a>
 </p>
 
-### Web &amp; Backend
+### Web & Backend
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,sqlite,tailwind" alt="Web & Backend" />
   </a>
 </p>
 
-### Tools &amp; Environments
+### Tools & Environments
 <p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman" alt="Developer Tools" />
@@ -168,7 +168,7 @@ I am actively developing technical depth at the intersection of machine learning
 
 ---
 
-## 📚 Academic &amp; Coursework
+## 📚 Academic & Coursework
 
 Alongside flagship projects, I maintain codebases from university coursework and collaborative studies:
 
