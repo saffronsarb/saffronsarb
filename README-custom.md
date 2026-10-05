@@ -74,17 +74,10 @@ A collection of C++ implementations focusing on core algorithms, object-oriented
 
 I am actively developing technical depth at the intersection of machine learning and practical software engineering:
 
-* **Multi-Agent Systems**  
-  Building specialized agents coordinated through orchestration and structured handoffs.
-
-* **RAG & Grounded AI**  
-  Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
-
-* **Structured AI**  
-  Using schemas and validation to make model outputs predictable and application-ready.
-
-* **AI Automation**  
-  Exploring event-driven workflows and AI automation with tools such as n8n.
+* **Multi-Agent Systems:** Building specialized agents coordinated through orchestration and structured handoffs.
+* **RAG & Grounded AI:** Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
+* **Structured AI:** Using schemas and validation to make model outputs predictable and application-ready.
+* **AI Automation:** Exploring event-driven workflows and AI automation with tools such as n8n.
 
 ---
 
