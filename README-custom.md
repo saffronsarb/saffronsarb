@@ -70,17 +70,6 @@ A collection of C++ implementations focusing on core algorithms, object-oriented
 
 ---
 
-## 🧠 Building Intelligent Systems
-
-I am actively developing technical depth at the intersection of machine learning and practical software engineering:
-
-* **Multi-Agent Systems:** Building specialized agents coordinated through orchestration and structured handoffs.
-* **RAG & Grounded AI:** Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
-* **Structured AI:** Using schemas and validation to make model outputs predictable and application-ready.
-* **AI Automation:** Exploring event-driven workflows and AI automation with tools such as n8n.
-
----
-
 ## 🛠️ Technical Stack
 
 <div align="center">
@@ -95,6 +84,17 @@ I am actively developing technical depth at the intersection of machine learning
 <img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" /> <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
 
 </div>
+
+---
+
+## 🧠 Building Intelligent Systems
+
+I am actively developing technical depth at the intersection of machine learning and practical software engineering:
+
+* **Multi-Agent Systems:** Building specialized agents coordinated through orchestration and structured handoffs.
+* **RAG & Grounded AI:** Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
+* **Structured AI:** Using schemas and validation to make model outputs predictable and application-ready.
+* **AI Automation:** Exploring event-driven workflows and AI automation with tools such as n8n.
 
 ---
 
