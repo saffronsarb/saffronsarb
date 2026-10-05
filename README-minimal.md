@@ -1,4 +1,4 @@
-<img src="assets/header_banner.svg" alt="Saffron Singh" width="880" />
+<img src="assets/banner_aryan_ashish_terminal.svg" alt="Saffron Singh" width="880" />
 
 ```json
 {
