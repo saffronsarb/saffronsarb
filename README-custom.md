@@ -92,42 +92,27 @@ I am actively developing technical depth at the intersection of machine learning
 
 <div align="center">
 
-### AI & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-10A37F?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Agents SDK" />
-  <img src="https://img.shields.io/badge/Google%20Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini API" />
-  <img src="https://img.shields.io/badge/RAG%20Patterns-06B6D4?style=flat-square&logo=databricks&logoColor=white" alt="RAG" />
-  <img src="https://img.shields.io/badge/Generative%20AI-6366F1?style=flat-square&logo=robot&logoColor=white" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/PyTorch%20(Foundations)-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-</p>
+**AI & Machine Learning**<br>
+<img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-10A37F?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Agents SDK" /> <img src="https://img.shields.io/badge/Google%20Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini API" /> <img src="https://img.shields.io/badge/RAG%20Patterns-06B6D4?style=flat-square&logo=databricks&logoColor=white" alt="RAG" /> <img src="https://img.shields.io/badge/Generative%20AI-6366F1?style=flat-square&logo=robot&logoColor=white" alt="Generative AI" /> <img src="https://img.shields.io/badge/PyTorch%20(Foundations)-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
 
-### Programming Languages
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css" alt="Programming Languages" />
-  </a>
-</p>
+<br><br>
 
-### Web & Backend
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,sqlite,tailwind" alt="Web & Backend" />
-  </a>
-</p>
+**Programming & Web Backend**<br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css,react,vite,nodejs,express,sqlite,tailwind&perline=13" alt="Programming Languages & Web" />
+</a>
 
-### Tools & Environments
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman" alt="Developer Tools" />
-  </a>
-</p>
+<br><br>
 
-### 🔭 Exploring Next
-<p>
-  <img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Docker%20Containerization-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
-</p>
+**Tools & Environments**<br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,docker&perline=6" alt="Developer Tools" />
+</a>
+
+<br><br>
+
+**🔭 Exploring Next**<br>
+<img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" /> <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
 
 </div>
 
