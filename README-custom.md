@@ -23,8 +23,8 @@
 ```json
 {
   "developer": "Saffron Singh",
-  "focus": ["AI/ML", "AI Agents", "Software Engineering"],
-  "current_work": "Intelligent systems & AI automation",
+  "focus": ["Systems Engineering", "OS Architecture", "Algorithms", "AI/ML"],
+  "current_work": "System-level programming, OS architecture & Algorithms",
   "education": "B.Tech CSE — Shoolini University",
   "creed": "Build → Break → Understand → Improve."
 }
@@ -80,17 +80,18 @@ A collection of C++ implementations focusing on core algorithms, object-oriented
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css,react,vite,nodejs,express,sqlite,tailwind&perline=13" alt="Programming Languages & Web" /></a><br><br>
 **Tools & Environments**<br>
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,docker&perline=6" alt="Developer Tools" /></a><br><br>
-**🔭 Exploring Next**<br>
-<img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" /> <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
+**🔭 Exploring Next & Current Focus**<br>
+<img src="https://img.shields.io/badge/OS%20Architecture-4D4D4D?style=flat-square&logo=linux&logoColor=white" alt="OS Architecture" /> <img src="https://img.shields.io/badge/Algorithms-FF6F00?style=flat-square&logo=cplusplus&logoColor=white" alt="Algorithms" /> <img src="https://img.shields.io/badge/n8n%20Workflow%20Automation-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" /> <img src="https://img.shields.io/badge/MongoDB%20%2F%20MySQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="Databases" />
 
 </div>
 
 ---
 
-## 🧠 Building Intelligent Systems
+## 🧠 Systems & Intelligent Engineering
 
-I am actively developing technical depth at the intersection of machine learning and practical software engineering:
+I am actively developing technical depth at the intersection of low-level systems, machine learning, and software engineering:
 
+* **Systems & Architecture:** Diving deep into Operating Systems, low-level architecture, and algorithmic optimization.
 * **Multi-Agent Systems:** Building specialized agents coordinated through orchestration and structured handoffs.
 * **RAG & Grounded AI:** Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
 * **Structured AI:** Using schemas and validation to make model outputs predictable and application-ready.
