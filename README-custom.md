@@ -66,13 +66,7 @@ Full-stack student finance companion combining conversational AI with budgeting 
 * **Express + SQLite Backend:** Local-first data persistence, authenticated sessions via JWT & bcrypt, and modular REST API routes.
 * **Google Gemini + Structured Validation:** Conversational assistant that converts natural-language expense descriptions into validated transaction records via Zod schemas.
 
-<p align="center">
-  <a href="https://github.com/saffronsarb/FinPilot-AI">
-    <img src="assets/finpilot_preview.png" alt="FinPilot AI Conversational Financial Companion Preview" width="720" style="border-radius: 8px; border: 1px solid #30363d;" />
-  </a>
-  <br />
-  <sub>Conversational financial companion + intelligent budgeting assistance</sub>
-</p>
+
 
 **Stack:** `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/FinPilot-AI)
