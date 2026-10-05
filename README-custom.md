@@ -168,26 +168,7 @@ I am actively developing technical depth at the intersection of machine learning
 
 ---
 
-## 📚 Academic & Coursework
 
-Alongside flagship projects, I maintain codebases from university coursework and collaborative studies:
-
-* 🏛️ [**Class-codes-C**](https://github.com/saffronsarb/Class-codes-C) — Foundational C programming class exercises at Shoolini University.
-* 📈 [**financial_advisor-2-**](https://github.com/saffronsarb/financial_advisor-2-) — Second-semester Python financial data exploration coursework.
-* 🤝 [**Well-beings**](https://github.com/saffronsarb/Well-beings) — Collaborative digital wellbeing repository (forked study on healthcare app architecture).
-
----
-
-## 🎯 2026 Roadmap
-
-* [ ] Deploy 1+ full-stack AI applications to public cloud hosting
-* [ ] Deepen agent evaluation frameworks and output reliability benchmarks
-* [ ] Learn Docker containerization and automated CI/CD pipelines
-* [ ] Make first meaningful code contributions to open-source AI projects
-* [ ] Continue applied AI/ML research and deep learning experimentation
-* [ ] Deepen core software engineering, testing, and system fundamentals
-
----
 
 ## 💡 Engineering Creed
 
