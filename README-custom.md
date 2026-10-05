@@ -42,16 +42,7 @@ Multi-agent knowledge management prototype developed during the **IIT Jammu Summ
 * **OpenAI Agents SDK + Pydantic:** Strict structured schemas, deterministic function calling, and session memory for reliable multi-turn execution.
 * **Tool-Based Knowledge Workflows:** Document ingestion, contextual retrieval, and human-in-the-loop approval mechanisms.
 
-```mermaid
-graph TD
-  User([User / Client]) --> Orch[Orchestrator Agent]
-  Orch --> Policy[Policy Agent]
-  Orch --> Meeting[Meeting Agent]
-  Orch --> Reader[Reader Agent]
-  Orch --> Search[Search Agent]
-  Orch --> Rec[Recommendation Agent]
-  Orch --> Curator[Curator Agent]
-```
+
 
 **Stack:** `Python` • `OpenAI Agents SDK` • `Pydantic v2` • `Multi-Agent Orchestration` • `RAG`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
