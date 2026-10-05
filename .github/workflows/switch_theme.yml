@@ -1,0 +1,35 @@
+name: Toggle Profile Theme
+
+on:
+  workflow_dispatch:
+
+jobs:
+  switch-theme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Run theme switch script
+        run: python scripts/switch_theme.py
+        
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "style: Toggle GitHub profile theme"
+            git push
+          fi
