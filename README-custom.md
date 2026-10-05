@@ -36,13 +36,7 @@
 
 ### 01. [AI Enterprise Knowledge Manager](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
 
-Multi-agent knowledge management prototype developed during the **IIT Jammu Summer School 2026 Internship Program**.
-
-* **7-Agent Hub-and-Spoke Architecture:** Centralized orchestrator dynamically delegating across 6 specialized domain agents (*Policy, Meeting, Reader, Recommendation, Search, Curator*).
-* **OpenAI Agents SDK + Pydantic:** Strict structured schemas, deterministic function calling, and session memory for reliable multi-turn execution.
-* **Tool-Based Knowledge Workflows:** Document ingestion, contextual retrieval, and human-in-the-loop approval mechanisms.
-
-
+A 7-agent hub-and-spoke knowledge management system built with the OpenAI Agents SDK and Pydantic for deterministic, multi-turn execution. (IIT Jammu Summer School 2026)
 
 **Stack:** `Python` • `OpenAI Agents SDK` • `Pydantic v2` • `Multi-Agent Orchestration` • `RAG`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
@@ -51,13 +45,7 @@ Multi-agent knowledge management prototype developed during the **IIT Jammu Summ
 
 ### 02. [FinPilot AI](https://github.com/saffronsarb/FinPilot-AI)
 
-Full-stack student finance companion combining conversational AI with budgeting and transaction management.
-
-* **React + TypeScript Frontend:** Responsive financial dashboard with category spending visualizations, monthly allowance tracking, and recent activity logs.
-* **Express + SQLite Backend:** Local-first data persistence, authenticated sessions via JWT & bcrypt, and modular REST API routes.
-* **Google Gemini + Structured Validation:** Conversational assistant that converts natural-language expense descriptions into validated transaction records via Zod schemas.
-
-
+A full-stack finance companion using React, Express, and Google Gemini to convert natural-language expenses into validated database transactions.
 
 **Stack:** `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/FinPilot-AI)
@@ -66,11 +54,7 @@ Full-stack student finance companion combining conversational AI with budgeting 
 
 ### 03. [Generative AI & Deep Learning Experiments](https://github.com/saffronsarb/Generative-AI-Saffron-)
 
-Reproducible experiments exploring deep learning architectures and generative concepts in Python.
-
-* **Autoencoders & Image Denoising:** Convolutional autoencoder implementations for noise reduction, latent feature representation, and image reconstruction.
-* **Model Experimentation:** Hands-on notebooks exploring neural representations, data preprocessing, and training pipelines.
-* **Foundational Workflows:** Structured Jupyter experiments documenting reproducible machine learning workflows.
+Reproducible Jupyter notebooks exploring convolutional autoencoders, image denoising, and foundational machine learning workflows in Python.
 
 **Stack:** `Python` • `Jupyter Notebook` • `Deep Learning` • `Autoencoders` • `Computer Vision`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Generative-AI-Saffron-)
@@ -79,11 +63,7 @@ Reproducible experiments exploring deep learning architectures and generative co
 
 ### 04. [C++ Programming Foundations](https://github.com/saffronsarb/Safi_cpp_programs)
 
-C++ practice collection focused on programming fundamentals, object-oriented concepts, algorithms, and data structures.
-
-* **Core Algorithms & OOP:** Practical implementations of binary search, bubble sort, class construction, constructors, and array manipulation.
-* **Data Structures:** Systematic exercises building foundational fluency in memory mechanics and problem-solving.
-* **System Understanding:** Low-level programming exercises supporting a solid conceptual base for higher-level AI engineering.
+A collection of C++ implementations focusing on core algorithms, object-oriented programming, and foundational memory mechanics.
 
 **Stack:** `C++` • `Object-Oriented Programming` • `Algorithms` • `Data Structures`  
 👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Safi_cpp_programs)
