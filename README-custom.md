@@ -105,8 +105,8 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/saffronsarb)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
-[![Email](https://img.shields.io/badge/Email-ssaffron533%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssaffron533@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0284C7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/saffron-singh-851a44415/)
+[![Email](https://img.shields.io/badge/Email-ssaffron533%40gmail.com-B71C1C?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22)](mailto:ssaffron533@gmail.com)
 
 <br>
 
