@@ -62,17 +62,15 @@
 
 ## 🧠 Systems & Intelligent Engineering
 
-I am actively developing technical depth at the intersection of low-level systems, machine learning, and software engineering:
-
-* **Systems & Architecture:** Diving deep into Operating Systems, low-level architecture, and algorithmic optimization.
-* **Multi-Agent Systems:** Building specialized agents coordinated through orchestration and structured handoffs.
-* **RAG & Grounded AI:** Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
-* **Structured AI:** Using schemas and validation to make model outputs predictable and application-ready.
-* **AI Automation:** Exploring event-driven workflows and AI automation with tools such as n8n.
+| Focus Area | Engineering Direction |
+| :--- | :--- |
+| **Systems & Architecture** | Diving deep into Operating Systems, low-level architecture, and algorithmic optimization. |
+| **Multi-Agent Systems** | Building specialized agents coordinated through orchestration and structured handoffs. |
+| **RAG & Grounded AI** | Exploring retrieval-based systems that connect LLM responses to real domain knowledge. |
+| **Structured AI** | Using schemas and validation to make model outputs predictable and application-ready. |
+| **AI Automation** | Exploring event-driven workflows and AI automation with tools such as n8n. |
 
 ---
-
-
 
 ## 💡 Engineering Creed
 
