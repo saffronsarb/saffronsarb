@@ -89,29 +89,21 @@
 
 ---
 
-## 💡 Engineering Creed
-
-<div align="center">
-
-> *"Build → Break → Understand → Improve."*  
-> *"Don't just use AI. **Understand the engineering beneath it.**"*
-
-</div>
-
----
-
 ## 🤝 Connect
 
 <div align="center">
+
+*"Build → Break → Understand → Improve."*  
+*"Don't just use AI. **Understand the engineering beneath it.**"*
+
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saffronsarb)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
 [![Email](https://img.shields.io/badge/Email-ssaffron533%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssaffron533@gmail.com)
 
-<br />
+<br>
 
-<p align="center">
-  <sub>Saffron Singh • B.Tech Computer Science (AI &amp; ML) • Shoolini University, Solan, India</sub>
-</p>
+<sub>Saffron Singh • B.Tech Computer Science (AI &amp; ML) • Shoolini University, Solan, India</sub>
 
 </div>
