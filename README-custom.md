@@ -16,16 +16,13 @@
 
 </div>
 
----
-
-### 👨‍💻 Profile Configuration: `saffron.config.json`
+**👨‍💻 `saffron.config.json`**
 
 ```json
 {
-  "developer": "Saffron Singh",
+  "developer": "Saffron Singh", "education": "B.Tech CSE — Shoolini University",
   "focus": ["Systems Engineering", "OS Architecture", "Algorithms", "AI/ML"],
   "current_work": "System-level programming, OS architecture & Algorithms",
-  "education": "B.Tech CSE — Shoolini University",
   "creed": "Build → Break → Understand → Improve."
 }
 ```
