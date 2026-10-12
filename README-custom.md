@@ -4,13 +4,13 @@
 
   <p align="center">
     <a href="https://github.com/saffronsarb">
-      <img src="https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-saffronsarb-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
     </a>
     <a href="https://shooliniuniversity.com">
-      <img src="https://img.shields.io/badge/University-Shoolini%20University-10b981?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Shoolini University" />
+      <img src="https://img.shields.io/badge/University-Shoolini%20University-E53935?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Shoolini University" />
     </a>
     <a href="#-systems--intelligent-engineering">
-      <img src="https://img.shields.io/badge/Focus-AI%20%26%20Intelligent%20Systems-6366f1?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus" />
+      <img src="https://img.shields.io/badge/Focus-AI%20%26%20Intelligent%20Systems-06B6D4?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus" />
     </a>
   </p>
 
@@ -104,7 +104,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saffronsarb)
+[![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/saffronsarb)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
 [![Email](https://img.shields.io/badge/Email-ssaffron533%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssaffron533@gmail.com)
 
