@@ -9,7 +9,7 @@
     <a href="https://shooliniuniversity.com">
       <img src="https://img.shields.io/badge/University-Shoolini%20University-10b981?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Shoolini University" />
     </a>
-    <a href="#-building-intelligent-systems">
+    <a href="#-systems--intelligent-engineering">
       <img src="https://img.shields.io/badge/Focus-AI%20%26%20Intelligent%20Systems-6366f1?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus" />
     </a>
   </p>
