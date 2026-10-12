@@ -34,39 +34,12 @@
 
 ## ⭐ Featured Projects
 
-### 01. [AI Enterprise Knowledge Manager](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
-
-A 7-agent hub-and-spoke knowledge management system built with the OpenAI Agents SDK and Pydantic for deterministic, multi-turn execution. (IIT Jammu Summer School 2026)
-
-**Stack:** `Python` • `OpenAI Agents SDK` • `Pydantic v2` • `Multi-Agent Orchestration` • `RAG`  
-👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-)
-
----
-
-### 02. [FinPilot AI](https://github.com/saffronsarb/FinPilot-AI)
-
-A full-stack finance companion using React, Express, and Google Gemini to convert natural-language expenses into validated database transactions.
-
-**Stack:** `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod`  
-👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/FinPilot-AI)
-
----
-
-### 03. [Generative AI & Deep Learning Experiments](https://github.com/saffronsarb/Generative-AI-Saffron-)
-
-Reproducible Jupyter notebooks exploring convolutional autoencoders, image denoising, and foundational machine learning workflows in Python.
-
-**Stack:** `Python` • `Jupyter Notebook` • `Deep Learning` • `Autoencoders` • `Computer Vision`  
-👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Generative-AI-Saffron-)
-
----
-
-### 04. [C++ Programming Foundations](https://github.com/saffronsarb/Safi_cpp_programs)
-
-A collection of C++ implementations focusing on core algorithms, object-oriented programming, and foundational memory mechanics.
-
-**Stack:** `C++` • `Object-Oriented Programming` • `Algorithms` • `Data Structures`  
-👉 [**View Repository on GitHub ↗**](https://github.com/saffronsarb/Safi_cpp_programs)
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| [**AI Enterprise Knowledge Manager** ↗](https://github.com/saffronsarb/SDK-OpenAI-7-agents-Project-with-Orchestration-) | 7-agent hub-and-spoke knowledge management system built with OpenAI Agents SDK and Pydantic for deterministic, multi-turn execution. *(IIT Jammu Summer School 2026)* | `Python` • `OpenAI Agents SDK` • `Pydantic v2` • `Multi-Agent Orchestration` • `RAG` |
+| [**FinPilot AI** ↗](https://github.com/saffronsarb/FinPilot-AI) | Full-stack finance companion using React, Express, and Google Gemini to convert natural-language expenses into validated database transactions. | `TypeScript` • `React` • `Vite` • `Node.js` • `Express` • `SQLite` • `Google Gemini API` • `Zod` |
+| [**Generative AI & Deep Learning Experiments** ↗](https://github.com/saffronsarb/Generative-AI-Saffron-) | Reproducible Jupyter notebooks exploring convolutional autoencoders, image denoising, and foundational machine learning workflows in Python. | `Python` • `Jupyter Notebook` • `Deep Learning` • `Autoencoders` • `Computer Vision` |
+| [**C++ Programming Foundations** ↗](https://github.com/saffronsarb/Safi_cpp_programs) | Collection of C++ implementations focusing on core algorithms, object-oriented programming, and foundational memory mechanics. | `C++` • `Object-Oriented Programming` • `Algorithms` • `Data Structures` |
 
 ---
 
