@@ -62,13 +62,33 @@
 
 ## 🧠 Systems & Intelligent Engineering
 
-| Focus Area | Engineering Direction |
-| :--- | :--- |
-| **Systems & Architecture** | Diving deep into Operating Systems, low-level architecture, and algorithmic optimization. |
-| **Multi-Agent Systems** | Building specialized agents coordinated through orchestration and structured handoffs. |
-| **RAG & Grounded AI** | Exploring retrieval-based systems that connect LLM responses to real domain knowledge. |
-| **Structured AI** | Using schemas and validation to make model outputs predictable and application-ready. |
-| **AI Automation** | Exploring event-driven workflows and AI automation with tools such as n8n. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>⚙️ Systems & Architecture</b><br>
+      Diving deep into Operating Systems, low-level architecture, and algorithmic optimization.
+    </td>
+    <td width="50%" valign="top">
+      <b>🤖 Multi-Agent Systems</b><br>
+      Building specialized agents coordinated through orchestration and structured handoffs.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🔍 RAG & Grounded AI</b><br>
+      Exploring retrieval-based systems that connect LLM responses to real domain knowledge.
+    </td>
+    <td width="50%" valign="top">
+      <b>📐 Structured AI</b><br>
+      Using schemas and validation to make model outputs predictable and application-ready.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <b>⚡ AI Automation:</b> Exploring event-driven workflows and AI automation with tools such as n8n.
+    </td>
+  </tr>
+</table>
 
 ---
 
