@@ -89,14 +89,20 @@
 
 ---
 
-## 🤝 Connect
+## 💡 Engineering Creed
 
 <div align="center">
 
-*"Build → Break → Understand → Improve."*  
-*"Don't just use AI. **Understand the engineering beneath it.**"*
+> *"Build → Break → Understand → Improve."*  
+> *"Don't just use AI. **Understand the engineering beneath it.**"*
 
-<br>
+</div>
+
+---
+
+## 🤝 Connect
+
+<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-saffronsarb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saffronsarb)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saffron%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saffron-singh-851a44415/)
